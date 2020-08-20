@@ -4,16 +4,19 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start"
   },
   "dependencies": {
+  
     "d3-array": "^2.5.1",
     "emailjs-com": "^2.6.3",
+    
     "next": "9.5.2",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-measure": "^2.3.0",
+   
     "react-reveal": "^1.2.2",
     "react-spring": "^8.0.27"
   }

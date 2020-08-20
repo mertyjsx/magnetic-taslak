@@ -13,7 +13,12 @@ const Line =()=>{
 [
 
 <div className="middle ">
-<img className="wave" src="/wave.svg"></img>
+
+<img src="/w1.png" className="wave"></img>
+
+
+
+
 <Fade bottom>
 
 
@@ -32,7 +37,7 @@ const Line =()=>{
 
 
 <div className="left flex flex-col">
-    <img src="magnet.svg" className="mb-4" style={{width:60,height:60}}></img>
+    <img src="magnet.png" className="mb-4" style={{width:60,height:60}}></img>
     <Fade bottom>
 
         
@@ -43,7 +48,7 @@ const Line =()=>{
     <Fade bottom delay={300}>
 
 <h3 className="text-center text-1xl md:text-sm lg:text-2xl text-white  font-bold mt-8 flex flex-row">
-<img src="quote.svg" className="mb-16 ters  w-8 h-8 md:h-12 md:w-12 " ></img> The findings from these studies... identify new potential strategies to preserve thymus function for longer, raising the prospect of a healthier old age.   <img src="quote.svg" className="mb-16 w-8 h-8 md:h-12 md:w-12" ></img>
+<img src="quote.png" className="mb-16 ters  w-8 h-8 md:h-12 md:w-12 " ></img> The findings from these studies... identify new potential strategies to preserve thymus function for longer, raising the prospect of a healthier old age.   <img src="quote.png" className="mb-16 w-8 h-8 md:h-12 md:w-12" ></img>
 </h3>
 
     </Fade>
@@ -59,7 +64,7 @@ Professor Georg Hollander, Department of Paediatrics Oxford
 
 
 <div className="right flex flex-col">
-<img src="heart.svg" className="mb-4" style={{width:60,height:60}}></img>
+<img src="heart.png" className="mb-4" style={{width:60,height:60}}></img>
 <Fade bottom>
 
 <h3 className="text-center text-2xl md:text-xl lg:text-2xl text-white  font-normal mt-4" style={{    color: "#bdbdbd"}}>
@@ -70,11 +75,11 @@ The thymus gland is a small organ behind the breastbone that plays an important 
 <Fade bottom delay={1000}>
 
 <div className="text-center flex-wrap w-full text-xl md:text-xl xl:text-2xl  text-white  font-normal flex flex-row items-center justify-center mt-8">
-<img src="dot.svg"className="mr-2 ml-4" style={{width:10,height:10}}></img>
+<div className="dotsvg mr-2 ml-4" style={{width:10,height:10}}></div>
 <h3 className="text-1xl">Stres</h3> 
-<img src="dot.svg"className="mr-2 ml-4" style={{width:10,height:10}}></img>
+<div className="dotsvg mr-2 ml-4" style={{width:10,height:10}}></div>
 <h3>bioenergy</h3> 
-<img src="dot.svg"className="mr-2 ml-4 mt-2 md:mt-0" style={{width:10,height:10}}></img>
+<div className="dotsvg mr-2 ml-4 mt-2 md:mt-0" style={{width:10,height:10}}></div>
 <h3 className="mt-2 md:mt-0">Immunity</h3> 
 
 
@@ -85,9 +90,9 @@ The thymus gland is a small organ behind the breastbone that plays an important 
 
 <div className="text-center w-full text-xl md:text-xl xl:text-2xl text-white  font-normal flex flex-row items-center justify-center mt-4">
 
-<img src="dot.svg"className="mr-2 ml-4" style={{width:10,height:10}}></img>
+<div className="dotsvg mr-2 ml-4" style={{width:10,height:10}}></div>
 <h3>Aging</h3> 
-<img src="dot.svg"className="mr-2 ml-8" style={{width:10,height:10}}></img>
+<div className="dotsvg mr-2 ml-8" style={{width:10,height:10}}></div>
 <h3> T-cell maturation</h3> 
 
 </div>
@@ -100,7 +105,7 @@ The thymus gland is a small organ behind the breastbone that plays an important 
 <div className="text-center w-full text-xl md:text-xl xl:text-2xl text-white  font-normal flex flex-row items-center justify-center mt-4">
 
 
-<img src="dot.svg"className="mr-2 ml-4" style={{width:10,height:10}}></img>
+<div className="dotsvg mr-2 ml-4" ></div>
 <h3>Positive selection</h3> 
 
 </div>
@@ -127,7 +132,7 @@ The thymus gland is a small organ behind the breastbone that plays an important 
 </div>,
 
 
-<img src="/wave2.svg" className="wave2"></img>,
+<img src="/w2.png" className="wave2"></img>,
 <div className="kapatıcı"></div>
 
 
