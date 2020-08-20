@@ -25,9 +25,20 @@ export default function Home() {
 
   return (
     <div className={styles.container} >
+<img src="/w1.png" hidden={true}></img>
+<img src="/w2.png" hidden={true}></img>
+<img src="/dotsvg.png" hidden={true}></img>
+<img src="/heart.png" hidden={true}></img>
+<img src="/oxford.png" hidden={true}></img>
+
+
       <Head>
+
         <title>Magnetic Sand</title>
         <link rel="icon" href="/lala.png" />
+
+
+
       </Head>
 
       <main className={styles.main}>
