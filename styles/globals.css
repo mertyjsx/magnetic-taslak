@@ -8,6 +8,24 @@
   align-items: center;
 }
 
+.spin{
+  position: absolute;
+width: 100px;
+height: 100px;
+top: 50vh;
+
+transform: rotate(-45deg);
+
+
+}
+.spintop{
+  position:absolute;
+top: 40vh;
+
+}
+
+
+
 .main {
   width: 100%;
   padding: 3rem 0;
