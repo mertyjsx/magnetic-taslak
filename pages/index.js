@@ -152,7 +152,7 @@ setTimeout(() => {
   </h2>
   <h4 className="text-center text-3xl font-normal mb-32 " style={{color:"#333232",width:"70%"}}>
   
-  Bulgaria and Georgia use magnetic sand for healing purposes like sand bath, however 
+  Ukraine, Japan use magnetic sand for healing purposes like sand bath, however 
   we are the only ones in the world that make this sand an accessory.
   <span  class="text-3xl font-bold text-black ml-2">
   
