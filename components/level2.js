@@ -1,7 +1,9 @@
 import React from "react"
-import Fade from "react-reveal/Fade"
-import Link from "next/link"
 
+import Link from "next/link"
+import config from 'react-reveal/globals';
+import {Fade} from "react-reveal"
+config({ ssrFadeout: true });
 
 const Line =()=>{
 

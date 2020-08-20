@@ -1,8 +1,9 @@
 import React, { useEffect } from "react"
-import Fade from 'react-reveal/Fade';
+
 import config from 'react-reveal/globals';
 
 config({ ssrFadeout: true });
+import {Fade} from "react-reveal"
 export default function Home() {
     const [scroll,setScroll]=React.useState(0)
     const handleScroll = () => {

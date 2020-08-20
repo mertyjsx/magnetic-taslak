@@ -12,7 +12,11 @@ import Thymus from "../components/thymus"
 import Level2 from "../components/level2"
 import Level3 from "../components/level3"
 import Buttons from "../components/buttons"
-import Fade from "react-reveal/Fade"
+
+import config from 'react-reveal/globals';
+
+config({ ssrFadeout: true });
+import {Fade} from "react-reveal"
 import Ara from "../components/aralevel"
 
 
