@@ -18,11 +18,7 @@ transform: rotate(-45deg);
 
 
 }
-.spintop{
-  position:absolute;
-top: 40vh;
 
-}
 
 
 
@@ -91,15 +87,7 @@ top: 40vh;
     Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
-.grid {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
 
-  max-width: 800px;
-  margin-top: 3rem;
-}
 
 .card {
   margin: 1rem;
