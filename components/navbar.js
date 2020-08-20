@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react"
-
+import Link from "next/link"
 
 
 
@@ -22,35 +22,35 @@ sw(window.innerWidth)
 
 
 
-if(w<500)
-return(
-null
-)
-else return (
+return ([
+    
 
 <div className="navbarContainer ">
 <div className="leftLink">
-<h4 className="r4">
-16-inch model
-
-
-</h4>
-<h6 className="r6">MacBook Pro
-</h6>
+    <Link href="/">
+    
+<img src="/lala.png" style={{width:75, height:62}}></img>
+    </Link>
 
 </div>
 
-<div className="flex flex-row">
+<div className="flex flex-row items-center">
+<Link href="/">
 
-<h5 className="r5">Tech Specs</h5>
+<h5 className="r5 ">Why</h5>
 
-<div className="but">Buy</div>
+</Link>
+<Link href="/products">
+
+<div className="but">Products</div>
+
+</Link>
 
 
 
 </div>
 </div>
-
+]
 )
 
 }

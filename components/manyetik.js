@@ -11,24 +11,24 @@ export default function Home() {
   return (
     <div className={styles.container} >
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Magnetic Sand</title>
+        <link rel="icon" href="/lala.png" />
       </Head>
-<Navbar></Navbar>
-      <main >
+
+      <div >
 
 
-<div className="flex    flex-col-reverse ">
+<div className="flex  xl:flex-row  flex-col-reverse lg:pt-4">
 
 
-<div className=" relative  ">
+<div className="relative sss ">
 
 
-        <h1 className="text-7xl font-bold  text-center">
+        <h1 className="tt text-center ">
         Magnetic 
         </h1>
 
-        <h1 className="text-7xl font-bold  text-center ">
+        <h1 className="tt  text-center ">
         Sandstone.
         </h1>
 
@@ -37,12 +37,12 @@ export default function Home() {
     
  
 
-<div className="relative mr-16">
+<div className="relative lg:pt-4 lg:ml-8 md:ml-16 lg:mt-4">
 
 
 
-     <img  src="/manyetik.gif" className="kum  md:ml-0 md:ml-32 ml-16 xl:mb-0  mb-16 "></img>
-<div className="ab  "></div>
+     <img  src="/ezgif.gif"  className="kum   md:ml-32     lg:ml-16 ml-16 xl:mb-0  mb-16 lg:mb-8 lg:mt-8"></img>
+
 
 </div>
 
@@ -51,23 +51,13 @@ export default function Home() {
 
 
 
-      </main>
+      </div>
 
 
 
     
 
 
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
     </div>
   )
 }
