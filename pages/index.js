@@ -47,8 +47,7 @@ setTimeout(() => {
 <img src="/w1.png" hidden={true}></img>
 <img src="/w2.png" hidden={true}></img>
 
-<img src="/heart.png" hidden={true}></img>
-<img src="/oxford.png" hidden={true}></img>
+
 
 
       <Head>
@@ -89,7 +88,7 @@ setTimeout(() => {
   <Levelline></Levelline>
   <Fade duration={2000}  >
   
-  <h2 className="text-center text-6xl font-bold mb-32">
+  <h2 className="text-center text-6xl font-bold mb-32 shadow-lg">
   
   Trigger the thymus gland .
   </h2>
@@ -103,7 +102,7 @@ setTimeout(() => {
   
   Use as a necklace .
   </h2>
-  <h4 className="text-center text-3xl font-normal mb-32 mt-8" style={{color:"#333232",width:"70%"}}>
+  <h4 className="text-center text-3xl font-normal mb-32 mt-8 shadow-lg p-8" style={{color:"#333232",width:"70%"}}>
   
   After long efforts, we made it into stone so that you can use it where your thymus gland is.You can use it as a necklace.
   
@@ -124,7 +123,7 @@ setTimeout(() => {
   
   Location of magnetic sand
   </h2>
-  <h4 className="text-center text-3xl font-normal mb-32 mt-8" style={{color:"#333232",width:"70%"}}>
+  <h4 className="text-center text-3xl font-normal mb-32 mt-8 shadow-lg p-8" style={{color:"#333232",width:"70%"}}>
   
   Which gives its name to the Black Sea sand, 4-kilometer beach is 
   
@@ -150,7 +149,7 @@ setTimeout(() => {
   What is our difference ?
   
   </h2>
-  <h4 className="text-center text-3xl font-normal mb-32 " style={{color:"#333232",width:"70%"}}>
+  <h4 className="text-center text-3xl font-normal mb-32 shadow-lg p-4 " style={{color:"#333232",width:"70%"}}>
   
   Ukraine, Japan use magnetic sand for healing purposes like sand bath, however 
   we are the only ones in the world that make this sand an accessory.

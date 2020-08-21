@@ -38,13 +38,13 @@ const Line =()=>{
 
 <div className="left flex flex-col">
     <img src="magnet.png" className="mb-4" style={{width:60,height:60}}></img>
-    <Fade bottom>
+    
 
         
     <h3 className="text-center text-2xl md:text-xl lg:text-2xl text-white  font-normal mt-4"style={{    color: "#bdbdbd"}}>
     If you use this magnetic sand on the thymus gland, you trigger the gland, ıt is very important for human health.
 </h3>
-    </Fade>
+    
     <Fade bottom delay={300}>
 
 <h3 className="text-center text-1xl md:text-sm lg:text-2xl text-white  font-bold mt-8 flex flex-row">
@@ -65,13 +65,13 @@ Professor Georg Hollander, Department of Paediatrics Oxford
 
 <div className="right flex flex-col">
 <img src="heart.png" className="mb-4" style={{width:60,height:60}}></img>
-<Fade bottom>
+
 
 <h3 className="text-center text-2xl md:text-xl lg:text-2xl text-white  font-normal mt-4" style={{    color: "#bdbdbd"}}>
 The thymus gland is a small organ behind the breastbone that plays an important function both in the immune system and endocrine system, and effects :
 </h3> 
 
-</Fade>
+
 <Fade bottom delay={1000}>
 
 <div className="text-center flex-wrap w-full text-xl md:text-xl xl:text-2xl  text-white  font-normal flex flex-row items-center justify-center mt-8">

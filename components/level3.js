@@ -13,7 +13,7 @@ const Line =()=>{
 
 
     
-<h3 className="tag3 text-bold">How will I use ? </h3>
+<h3 className="tag3 text-bold shadow-lg" >How will I use ? </h3>
 
 
 

@@ -42,7 +42,7 @@ You can discover our
 Proven resources
 </h3>
 
-<div className="text-center w-full text-xl md:text-xl xl:text-2xl text-white  font-normal flex flex-wrap  flex-row items-center justify-center mt-8">
+<div className=" text-center w-full text-xl md:text-xl xl:text-2xl text-white  font-normal flex flex-wrap  flex-row items-center justify-center mt-8">
 <div className="flex flex-row items-center mr-2 ml-4 justify-start ">
 
 <img  className="mr-2 dotsvg" style={{width:7,height:7,backgroundColor:"black"}}></img>
