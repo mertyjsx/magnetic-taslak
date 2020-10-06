@@ -35,9 +35,9 @@ return ([
 </div>
 
 <div className="flex flex-row items-center">
-<Link href="/">
+<Link href="/contact">
 
-<h5 className="r5 ">Why</h5>
+<h5 className="r5 hover">Contact</h5>
 
 </Link>
 <Link href="/products">

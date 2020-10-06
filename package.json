@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "axios": "^0.20.0",
     "d3-array": "^2.5.1",
     "emailjs-com": "^2.6.3",
     "next": "9.5.2",

@@ -1083,7 +1083,15 @@ height: 300px;
 .close:hover{
   cursor: pointer;
 }
+.center{
+display: flex;
+justify-content: center;
+align-items: center;
 
+}
+.hover:hover{
+  cursor: pointer;
+}
 
 .pn{
   top: 30px;

@@ -17,15 +17,20 @@ const [message,setmessage]=React.useState("")
 
 
     function sendEmail(e) {
-        
+        e.preventDefault()
 
 if(email!==""&&name!==""&&message!==""){
 console.log(email)
 let obj={
     email:email,name:name,message:message
 }
-
-    emailjs.sendForm('gmail', 'template_RzYMPo6x', {name:name ,email:email ,message:message}, 'user_UE3ufa59I2hyVJTagm230')
+let template_params= {
+    'username': name,
+   'email':email,
+   'message':message,
+   'g-recaptcha-response': '03AHJ_ASjnLA214KSNKFJAK12sfKASfehbmfd...'
+}
+    emailjs.send('gmail', 'template_RzYMPo6x', template_params, 'user_UE3ufa59I2hyVJTagm230')
     .then((result) => {
         console.log(result);
         setsuccess(true)
