@@ -57,10 +57,10 @@ setError("check email ,name or message")
             <h2 className="text-3xl text-center mb-8">Contact Us</h2>
             <form onSubmit={sendEmail} class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
                 <div class="mb-6">
-                    <label class="block text-gray-700 text-sm font-bold mb-2" for="username">
+                    <label class="block text-gray-700 text-sm font-bold mb-2" for="your name">
                         Name
         </label>
-                    <input value={name} class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="Username"  onChange={(e)=>setname(e.target.value)}/>
+                    <input value={name} class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="your name"  onChange={(e)=>setname(e.target.value)}/>
                 </div>
                 <div class="mb-4">
                     <label class="block text-gray-700 text-sm font-bold mb-2" for="email">
@@ -73,7 +73,8 @@ setError("check email ,name or message")
                     <label  class="block text-gray-700 text-sm font-bold mb-2" for="message">
                     Message
         </label>
-                    <textarea value={message} rows={3}  class="shadow appearance-none border multiline  rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" id="message" type="message" placeholder="your message"  onChange={(e)=>setmessage(e.target.value)} />
+                    <textarea value={message} rows={3}  class="shadow appearance-none border multiline  rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" id="message" type="message" placeholder="let us which product you like 
+and we will send it to you"  onChange={(e)=>setmessage(e.target.value)} />
                 
                 </div>
                 <div class="flex items-center justify-between">

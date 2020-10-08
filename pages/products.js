@@ -13,35 +13,12 @@ class Cell extends Component {
     return (
       <div
         className="cell"
-        style={{ backgroundImage:`url(${url})`, cursor: !active ? 'pointer' : 'auto' }}
+        style={{ backgroundImage:`url(${url})`,backgroundSize:active?"contain":"cover",backgroundRepeat:"no-repeat", cursor: !active ? 'pointer' : 'auto' ,height:active&&"100vh",maxHeight:active&&"100vh",backgroundPosition:"center"}}
         onClick={!active ? toggle : undefined}>
 
 
-        <Fade show={active} delay={active ? 500 : 0}>
-        
-          <div className="details">
-          <div className="close" onClick={toggle}>
-              X 
-              </div>
-        
-            <Slug delay={600}>
-              <div className="circle"  />
-            
-              <h1 className="pn">{name}</h1>
-              <p className="pp">{description}</p>
-            </Slug>
-          </div>
-        </Fade>
-        <Fade
-          show={!active}
-          from={{ opacity: 0, transform: 'translate3d(0,140px,0)' }}
-          enter={{ opacity: 1, transform: 'translate3d(0,0px,0)' }}
-          leave={{ opacity: 0, transform: 'translate3d(0,-50px,0)' }}
-          delay={active ? 0 : 400}>
-          <div className="default">
-            <div style={{ zIndex: 1 }}>{name}</div>
-          </div>
-        </Fade>
+      
+      
       </div>
     )
   }
@@ -53,6 +30,7 @@ export default class App extends Component {
     return (
       <Grid
         className="grid"
+        
         // Arbitrary data, should contain keys, possibly heights, etc.
         data={this.state.data}
         // Key accessor, instructs grid on how to fet individual keys from the data set
@@ -70,9 +48,30 @@ export default class App extends Component {
         // Regular react-spring configs
         config={config.slow}>
         {(data, active, toggle) => (
-          <Cell {...data} active={active} toggle={toggle} />
+          <Cell {...data} active={active} toggle={toggle}  />
         )}
       </Grid>
     )
   }
 }
+
+
+/**
+ * 
+ *       <Fade show={active} delay={active ? 500 : 0}>
+            
+              <div className="details">
+              <div className="close" onClick={toggle}>
+                  X 
+                  </div>
+            
+                <Slug delay={600}>
+                  <div className="circle"  />
+                
+                  <h1 className="pn">{name}</h1>
+                  <p className="pp">{description}</p>
+                </Slug>
+              </div>
+            </Fade>
+ * 
+ */

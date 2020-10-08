@@ -11,9 +11,11 @@ const styles = {
     width: '100%',
     overflow: 'hidden',
     minHeight: '100%',
+    
   },
   cell: {
     position: 'absolute',
+  
     willChange: 'transform, width, height, opacity',
   },
 }

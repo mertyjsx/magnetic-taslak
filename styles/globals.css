@@ -1115,7 +1115,9 @@ bottom: 0;
 .details{
   height: 50% !important;
 }
-
+.grid{
+  max-height: 100vh !important;
+}
 @media only screen and (min-width: 900px) {
 
 .sss{

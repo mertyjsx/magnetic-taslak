@@ -44,8 +44,8 @@ setTimeout(() => {
 
   return (
     <div className={styles.container} >
-<img src="/w1.png" hidden={true}></img>
-<img src="/w2.png" hidden={true}></img>
+<img src="/w1.png" alt="magneticpendant"  hidden={true}></img>
+<img src="/w2.png" alt="magneticpendant"  hidden={true}></img>
 
 
 
@@ -70,7 +70,7 @@ setTimeout(() => {
 [
 <RotateLoader className="spintop" css={{position:"absolute",top:"40vh"}} size={20}></RotateLoader>,
 
-  <img className="spin" src="spin.png"></img>,
+  <img className="spin" alt="magneticpendant"  src="spin.png"></img>,
   <main className={styles.main} style={{display:"none"}}>
      
 
@@ -170,7 +170,7 @@ setTimeout(() => {
              <p class="text-center text-gray-500 text-1xl">
                 &copy;2020 Magnetic Sand All rights reserved.
     </p>
-         <img src="/black_sand.png" style={{width:100 ,height:100}}></img>
+         <img src="/black_sand.png" alt="magneticpendant"   style={{width:100 ,height:100}}></img>
         </a>
       </footer>
   
@@ -284,7 +284,7 @@ setTimeout(() => {
            <p class="text-center text-gray-500 text-1xl">
               &copy;2020 Magnetic Sand All rights reserved.
   </p>
-       <img src="/black_sand.png" style={{width:100 ,height:100}}></img>
+       <img src="/black_sand.png" alt="magneticpendant" style={{width:100 ,height:100}}></img>
       </a>
     </footer>
 ]

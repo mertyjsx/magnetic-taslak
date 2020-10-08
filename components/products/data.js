@@ -7,7 +7,31 @@ export default [
       height: 300,
     },
     {
+      name: 'flower',
+      description: '#e0c3fc → #8ec5fc',
+      url: "/product6.jpg",
+      height: 400,
+    },
+    {
+      name: 'sand',
+      description: '#e0c3fc → #8ec5fc',
+      url: "/product7.jpg",
+      height: 400,
+    },
+    {
       name: 'Deep Blue',
+      description: '#e0c3fc → #8ec5fc',
+      url: "/product8.jpg",
+      height: 300,
+    },
+    {
+      name: 'Blue',
+      description: '#e0c3fc → #8ec5fc',
+      url: "/product9.jpg",
+      height: 400,
+    },
+    {
+      name: 'Deeps Blue',
       description: '#e0c3fc → #8ec5fc',
       url: "/product2.jpg",
       height: 400,
