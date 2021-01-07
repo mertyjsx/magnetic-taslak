@@ -39,7 +39,9 @@ class MyDocument extends Document {
       ></meta>
       <meta
         name="description"
-        content="Necklace , pendant , jewelry made by sea sand that has magnetic effect from Black Sea region"
+        content="
+        Magnetic black sand beach hawaii ,on the big island.Crystal store near me,Stress relief,gemstone list, how does kinetic sand work ,magnetite uses,handmade on amazon
+        "
       />
       <meta
         name="keywords"
