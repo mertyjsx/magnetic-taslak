@@ -25,8 +25,8 @@ class MyDocument extends Document {
                 }}
               />
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
-        <meta name="description" content="magnetic sand, magnetic necklaces healing and stressfield sand,anxiety necklaces, etsy, magnetite necklaces for women"/>
-<meta name="keywords" content="magnetic,sand,stone,pendant,stress,age,health,anxiety,necklace,etsy"/>
+        <meta name="description" content="Necklace , pendant , jewelry made by sea sand that has magnetic effect from Black Sea region"/>
+<meta name="keywords" content="magnetic,sand,stone,seasand,gift,breastmilk jewelry,magnetic sand necklace,pendant,stress,age,health,anxiety,necklace,etsy"/>
 <meta name="robots" content="index, follow"/>
 <meta http-equiv="Content-Type" content="text/html; charset=utf8"/>
 <meta name="language" content="English"/>
