@@ -30,7 +30,7 @@ export default function Home() {
 <div  className="yazı ">
 
 
-<h1 className="üst text-5xl md:text-4xl lg:text-6xl">Thymus</h1>
+<h2 className="üst text-5xl md:text-4xl lg:text-6xl">Thymus</h2>
 
 <h6 className="alt text-4xl md:text-3xl lg:text-4xl">gland.</h6>
 
@@ -47,10 +47,10 @@ export default function Home() {
 
 
 
-<h1 className="üst text-5xl md:text-4xl lg:text-6xl">Trigger it  </h1>
+<h2 className="üst text-5xl md:text-4xl lg:text-6xl">Trigger it  </h2>
 
 <Fade bottom  duration={1000} delay={1000} >
-<h6 className="alt text-4xl md:text-1xl lg:text-4xl"> by wearing <br></br>black magnetic <br></br>sandstone necklace.</h6>
+<h6 className="alt text-4xl md:text-1xl lg:text-4xl"> by wearing <br></br>black magnetic <br></br>sand necklace.</h6>
 </Fade>
 
 

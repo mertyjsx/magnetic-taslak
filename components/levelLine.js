@@ -14,7 +14,7 @@ const Line =()=>{
 
 <div className="middle ">
 
-<img src="/w1.png" alt="magnetic sand" className="wave"></img>
+
 
 
 
@@ -22,7 +22,7 @@ const Line =()=>{
 <Fade bottom>
 
 
-<h1 className=" text-white text-5xl md:text-4xl lg:text-6xl tag mt-16 md:mt-0">Why should i use ?</h1>
+<h2 className=" text-white text-5xl md:text-4xl lg:text-6xl tag mt-16 md:mt-0">Why should i use ?</h2>
 
 </Fade>
 </div>
@@ -31,7 +31,7 @@ const Line =()=>{
     
 
 ,
-<div  className="levelContainerS ">
+<div  className="levelContainerS " >
 
 
 
@@ -76,7 +76,7 @@ The thymus gland is a small organ behind the breastbone that plays an important 
 
 <div className="text-center flex-wrap w-full text-xl md:text-xl xl:text-2xl  text-white  font-normal flex flex-row items-center justify-center mt-8">
 <div className="dotsvg mr-2 ml-4" style={{width:10,height:10}}></div>
-<h1 className="text-1xl" style={{fontSize:20,fontWeight:500}}>Stress relief</h1> 
+<h3 className="text-1xl" >Stress relief</h3> 
 <div className="dotsvg mr-2 ml-4" style={{width:10,height:10}}></div>
 <h3>bioenergy</h3> 
 <div className="dotsvg mr-2 ml-4 mt-2 md:mt-0" style={{width:10,height:10}}></div>
@@ -132,8 +132,8 @@ The thymus gland is a small organ behind the breastbone that plays an important 
 </div>,
 
 
-<img  src="/w2.png" alt="magnetic sand" className="wave2"></img>,
-<div className="kapatıcı"></div>
+<img  src="/w2.png" alt="magnetic sand" className="wave2" ></img>,
+<div className="kapatıcı" style={{marginBottom:10}}></div>
 
 
 

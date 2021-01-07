@@ -20,9 +20,9 @@ export default function Home() {
 <div  className="yazı ">
 
 
-<h1 className="üst text-5xl md:text-4xl lg:text-6xl">Mangetic</h1>
+<h2 className="üst text-5xl md:text-4xl lg:text-6xl">Magnetite</h2>
 
-<h6 className="alt text-4xl md:text-3xl lg:text-4xl">Neckles.</h6>
+<h6 className="alt text-4xl md:text-3xl lg:text-4xl">jewelry.</h6>
 
 
 
@@ -37,7 +37,7 @@ export default function Home() {
 
 
 
-<h1 className="üst text-5xl md:text-4xl lg:text-6xl">Sea sand </h1>
+<h2 className="üst text-5xl md:text-4xl lg:text-6xl">Sea sand </h2>
 
 <Fade bottom  duration={1000} delay={1000}>
 <h6 className="alt text-4xl md:text-1xl lg:text-4xl">into stone <br></br>  as a result of<br></br> long processes.</h6>

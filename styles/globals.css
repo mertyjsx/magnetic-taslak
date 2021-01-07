@@ -684,6 +684,9 @@ z-index: 1;
 .middle{
   z-index: 500;
   position: relative;
+  background-color: black;
+  margin-top: 150px;
+ 
  width: 100%;
  bottom:-3px
 }
@@ -925,8 +928,8 @@ background: -webkit-linear-gradient(90deg,#929292, #0f090c);
 
 .tag{
   width: 100%;
-  bottom: 0px;
-  position: absolute;
+ margin-top: 10px;
+  
 letter-spacing: 0.1rem;
   text-align: center;
 font-size: 36px;
