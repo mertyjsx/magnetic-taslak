@@ -21,7 +21,7 @@ const Line =()=>{
 <Fade bottom>
 
 
-<img src="black_sand.png"  alt="magnetic sand" className="logow"></img>
+<img src="/lala.png"  alt="magnetic sand" className="logow"></img>
 <h3 className="text-center text-2xl  font-normal mt-4">
 You can discover our 
 <span className="font-bold ml-2 mr-2">
@@ -45,20 +45,20 @@ Proven resources
 <div className=" text-center w-full text-xl md:text-xl xl:text-2xl text-white  font-normal flex flex-wrap  flex-row items-center justify-center mt-8">
 <div className="flex flex-row items-center mr-2 ml-4 justify-start ">
 
-<img  className="mr-2 dotsvg" alt="magneticpendant"  style={{width:7,height:7,backgroundColor:"black"}}></img>
+
 
 <Link href="https://www.ox.ac.uk/news/2016-08-22-study-suggests-routes-improved-immunity-older-people">Oxford</Link > 
 
 </div>
 <div className="flex flex-row items-center mr-1  ml-8  justify-start mt-2 mb-2 md:mt-0 md:mb-0">
 
-<img  className="mr-2 dotsvg" alt="magneticpendant"  style={{width:7,height:7,color:"black",backgroundColor:"black"}}></img>
+
 <Link  href="https://www.verywellhealth.com/thymus-gland-overview-4582270">Verywell Health</Link >  
 
 </div>
 <div className="mr-1 ml-8 flex flex-row items-center  ">
 
-<img  className="mr-2 dotsvg" alt="magneticpendant"  style={{width:7,height:7,color:"black",backgroundColor:"black"}}></img>
+
 <Link href="https://www.livescience.com/62527-thymus.html" >Live Science</Link > 
 
 </div>

@@ -45,6 +45,11 @@ return ([
 <div className="but">Products</div>
 
 </Link>
+<Link href="/contact">
+
+<div className="but">Contact us</div>
+
+</Link>
 
 
 

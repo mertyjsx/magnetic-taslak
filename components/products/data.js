@@ -12,12 +12,7 @@ export default [
       url: "/product6.jpg",
       height: 400,
     },
-    {
-      name: 'sand',
-      description: '#e0c3fc → #8ec5fc',
-      url: "/product7.jpg",
-      height: 400,
-    },
+   
     {
       name: 'Deep Blue',
       description: '#e0c3fc → #8ec5fc',
@@ -52,6 +47,42 @@ export default [
       name: 'Japan Blush',
       description: ' #ddd6f3 → #faaca8',
       url: "/product5.jpg",
+      height: 300,
+    },
+    {
+      name: 'seahorse',
+      description: '#e0c3fc → #8ec5fc',
+      url: "/new_1.jpg",
+      height: 300,
+    },
+    {
+      name: '2',
+      description: '#e0c3fc → #8ec5fc',
+      url: "/new_2.jpg",
+      height: 400,
+    },
+    {
+      name: '3',
+      description: '#e0c3fc → #8ec5fc',
+      url: "/new_3.jpg",
+      height: 400,
+    },
+    {
+      name: '4',
+      description: '#f093fb → #f5576c',
+      url: "/new_4.jpg",
+      height: 300,
+    },
+    {
+      name: '5',
+      description: '#fdfbfb → #ebedee',
+      url: "/new_5.jpg",
+      height: 400,
+    },
+    {
+      name: '6',
+      description: ' #ddd6f3 → #faaca8',
+      url: "/new_6.jpg",
       height: 300,
     },
   ]

@@ -48,7 +48,11 @@ export default class App extends Component {
         // Regular react-spring configs
         config={config.slow}>
         {(data, active, toggle) => (
-          <Cell {...data} active={active} toggle={toggle}  />
+          [
+            <div className={`closeButton ${!active&&"notshow"}`} onClick={toggle}>Close</div>,
+            <Cell {...data} active={active} toggle={toggle}  />
+          ]
+         
         )}
       </Grid>
     )

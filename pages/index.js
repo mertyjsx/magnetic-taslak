@@ -128,11 +128,7 @@ export default function Home() {
                 <p class="text-center text-gray-500 text-1xl">
                   &copy;2020 Magnetic Sand All rights reserved.
                 </p>
-                <img
-                  src="/black_sand.png"
-                  alt="magnetic sand"
-                  style={{ width: 100, height: 100 }}
-                ></img>
+              
               </a>
             </footer>
      
