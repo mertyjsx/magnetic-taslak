@@ -46,7 +46,7 @@ export default function Home() {
 
 
 
-     <img  src="/ezgif.gif"  className="kum   md:ml-32     lg:ml-16 ml-16 xl:mb-0  mb-16 lg:mb-8 lg:mt-8"></img>
+     <img  src="/ezgif.gif" alt="magnetic sand" className="kum   md:ml-32     lg:ml-16 ml-16 xl:mb-0  mb-16 lg:mb-8 lg:mt-8"></img>
 
 
 </div>

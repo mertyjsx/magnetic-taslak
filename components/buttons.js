@@ -11,7 +11,7 @@ return(
 
 <div className=" relative buttoncontainer">
 
-<img src="/w3.png" className="fullw relative" style={{top:3}}></img>
+<img src="/w3.png" className="fullw relative" alt="valentines day gift" style={{top:3}}></img>
 <div className="arabulucu flex flex-column">
 
 
@@ -39,7 +39,7 @@ Products
 </div>
 
 </div>
-<img src="/w4.png" className="fullw relative" style={{bottom:3}}></img>
+<img src="/w4.png" className="fullw relative" alt="valentines day gift" style={{bottom:3}}></img>
 
 
 

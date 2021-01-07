@@ -64,7 +64,7 @@ export default function Home() {
 
 
 
-<img className="kolye" src="/t.jpg">
+<img className="kolye" alt="magnetic pendant" src="/t.jpg">
 
 
 

@@ -21,7 +21,7 @@ const Line =()=>{
 <Fade bottom>
 
 
-<img src="black_sand.png" className="logow"></img>
+<img src="black_sand.png"  alt="magnetic sand" className="logow"></img>
 <h3 className="text-center text-2xl  font-normal mt-4">
 You can discover our 
 <span className="font-bold ml-2 mr-2">
@@ -37,7 +37,7 @@ You can discover our
 <div className="right">
 <Fade bottom delay={300}>
 <div className=" flex flex-col justify-center">
-    <img src="oxford.png" alt="magneticpendant"  className="mb-4 self-center w-32 h-32" ></img>
+    <img src="oxford.png" alt="magnetic sand"  className="mb-4 self-center w-32 h-32" ></img>
 <h3 className="text-center text-2xl  font-normal  ">
 Proven resources
 </h3>

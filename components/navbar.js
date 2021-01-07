@@ -29,7 +29,7 @@ return ([
 <div className="leftLink">
     <Link href="/">
     
-<img src="/lala.png" style={{width:75, height:62}}></img>
+<img src="/lala.png" alt="magnetic sand" style={{width:75, height:62}}></img>
     </Link>
 
 </div>

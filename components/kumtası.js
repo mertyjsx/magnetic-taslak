@@ -54,7 +54,7 @@ export default function Home() {
 
 
 
-<img className="kolye" src="/resim2.jpg">
+<img className="kolye" alt="magnetic jewelry" src="/resim2.jpg">
 
 
 

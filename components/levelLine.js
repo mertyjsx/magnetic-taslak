@@ -14,7 +14,7 @@ const Line =()=>{
 
 <div className="middle ">
 
-<img src="/w1.png" className="wave"></img>
+<img src="/w1.png" alt="magnetic sand" className="wave"></img>
 
 
 
@@ -37,7 +37,7 @@ const Line =()=>{
 
 
 <div className="left flex flex-col">
-    <img src="magnet.png" className="mb-4" style={{width:60,height:60}}></img>
+    <img src="magnet.png" alt="magnetic sand" className="mb-4" style={{width:60,height:60}}></img>
     
 
         
@@ -48,7 +48,7 @@ const Line =()=>{
     <Fade bottom delay={300}>
 
 <h3 className="text-center text-1xl md:text-sm lg:text-2xl text-white  font-bold mt-8 flex flex-row">
-<img src="quote.png" className="mb-16 ters  w-8 h-8 md:h-12 md:w-12 " ></img> The findings from these studies... identify new potential strategies to preserve thymus function for longer, raising the prospect of a healthier old age.   <img src="quote.png" className="mb-16 w-8 h-8 md:h-12 md:w-12" ></img>
+<img src="quote.png" alt="magnetic sand" className="mb-16 ters  w-8 h-8 md:h-12 md:w-12 " ></img> The findings from these studies... identify new potential strategies to preserve thymus function for longer, raising the prospect of a healthier old age.   <img src="quote.png" alt="magnetic sand" className="mb-16 w-8 h-8 md:h-12 md:w-12" ></img>
 </h3>
 
     </Fade>
@@ -64,7 +64,7 @@ Professor Georg Hollander, Department of Paediatrics Oxford
 
 
 <div className="right flex flex-col">
-<img src="heart.png" className="mb-4" style={{width:60,height:60}}></img>
+<img alt="magnetic sand" src="heart.png" className="mb-4" style={{width:60,height:60}}></img>
 
 
 <h3 className="text-center text-2xl md:text-xl lg:text-2xl text-white  font-normal mt-4" style={{    color: "#bdbdbd"}}>
@@ -132,7 +132,7 @@ The thymus gland is a small organ behind the breastbone that plays an important 
 </div>,
 
 
-<img src="/w2.png" className="wave2"></img>,
+<img  src="/w2.png" alt="magnetic sand" className="wave2"></img>,
 <div className="kapatıcı"></div>
 
 
