@@ -26,7 +26,7 @@ class MyDocument extends Document {
               />
 
 
-      <title>Magnetic Sand Necklace</title>
+      <title>Magnetic Sand Necklace for Stress Relief Anxiety </title>
       <meta http-equiv="Content-Type" content="text/html; charset=utf8" />
       <meta
         name="og:title"
