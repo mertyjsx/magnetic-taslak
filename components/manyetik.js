@@ -7,21 +7,7 @@ import Kumtası from "../components/kumtası";
 export default function Home() {
   return (
     <div className={styles.container}>
-      <Head>
-        <title>Magnetic Sand</title>
-        <meta
-          name="description"
-          content="magnetic sand, magnetic necklaces healing and stressfield sand"
-        />
-        <meta
-          name="keywords"
-          content="magnetic,sand,stone,pendant,stress,age,health"
-        />
-        <meta name="robots" content="index, follow" />
-        <meta http-equiv="Content-Type" content="text/html; charset=utf8" />
-        <meta name="language" content="English" />
-        <link rel="icon" href="/lala.png" />
-      </Head>
+     
 
       <div>
         <div className="flex  xl:flex-row  flex-col-reverse lg:pt-4">
