@@ -35,11 +35,11 @@ return ([
 </div>
 
 <div className="flex flex-row items-center">
-<Link href="/contact">
+<a href="https://www.etsy.com/shop/MagneticPendant?ref=simple-shop-header-name&listing_id=845604646">
 
-<h5 className="r5 hover">Contact</h5>
+<h5 className="r5 hover">Buy on ETSY</h5>
 
-</Link>
+</a>
 <Link href="/products">
 
 <div className="but">Products</div>
