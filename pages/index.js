@@ -31,8 +31,7 @@ export default function Home() {
 
   return (
     <div className={styles.container}>
-      <img src="/w1.png" alt="stress relief" hidden={true}></img>
-      <img src="/w2.png" alt="gemstone dice" hidden={true}></img>
+      
 
      
         
@@ -77,7 +76,7 @@ export default function Home() {
                 </span>
               </h4>
 
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/oDqmi-0kDLo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe width="80%" height="400px" src="https://www.youtube.com/embed/oDqmi-0kDLo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               <Ara></Ara>
               <h2 className="text-center text-6xl font-bold ">
                 Location of magnetic sand

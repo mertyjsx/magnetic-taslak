@@ -29,7 +29,7 @@ return ([
 <div className="leftLink">
     <Link href="/">
     
-<img src="/lala.png" alt="magnetic sand" style={{width:75, height:62}}></img>
+<img src="/lala.png" alt="magnetic sand" style={{width:70, height:62}}></img>
     </Link>
 
 </div>
@@ -37,7 +37,7 @@ return ([
 <div className="flex flex-row items-center">
 <a href="https://www.etsy.com/shop/MagneticPendant?ref=simple-shop-header-name&listing_id=845604646">
 
-<h5 className="r5 hover">Buy on ETSY</h5>
+<h4 className="r5 hover" style={{fontWeight:600}}>Buy on ETSY</h4>
 
 </a>
 <Link href="/products">
