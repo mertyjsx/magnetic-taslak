@@ -76,7 +76,7 @@ The thymus gland is a small organ behind the breastbone that plays an important 
 
 <div className="text-center flex-wrap w-full text-xl md:text-xl xl:text-2xl  text-white  font-normal flex flex-row items-center justify-center mt-8">
 <div className="dotsvg mr-2 ml-4" style={{width:10,height:10}}></div>
-<h3 className="text-1xl">Stres</h3> 
+<h1 className="text-1xl" style={{fontSize:20,fontWeight:500}}>Stress relief</h1> 
 <div className="dotsvg mr-2 ml-4" style={{width:10,height:10}}></div>
 <h3>bioenergy</h3> 
 <div className="dotsvg mr-2 ml-4 mt-2 md:mt-0" style={{width:10,height:10}}></div>

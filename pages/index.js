@@ -52,7 +52,7 @@ setTimeout(() => {
 
       <Head>
 
-        <title>Magnetic Sand</title>
+        
         <link rel="icon" href="/lala.png" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
         <meta name="description" content="Necklace , pendant , jewelry made by sea sand that has magnetic effect from Black Sea region"/>
