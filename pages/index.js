@@ -34,10 +34,10 @@ export default function Home() {
       <main className={styles.main}>
         <Manyetik></Manyetik>
         <div style={{ display: "none" }}>
-          <h2>Stress relief anxiety</h2>,<h2>gift for girlfriend necklace </h2>,
+          <h2>Stress relief anxiety</h2>,<h3>gift for girlfriend necklace </h3>,
           <p>Magnetic black sand beach hawaii ,island.Crystal store near me,Stress relief,gemstone list,how does kinetic sand work ,magnetite uses,handmade on amazon
          </p>,
-          <h2>Magnetite pendant </h2>,<h2>Gemstone dice </h2>,
+          <h3>Magnetite pendant </h3>,<h3>Gemstone dice </h3>,
           <h3> anxiety attack vs panic attack</h3>,
           <h3> how many chakra are there </h3>,
           <h3> stress relief the office</h3>,<h3>stress effects on body</h3>,
@@ -57,7 +57,7 @@ export default function Home() {
 
         <Level3></Level3>
 
-        <h2 className="text-center text-6xl font-bold ">Use as a necklace .</h2>
+        <h3 className="text-center text-6xl font-bold ">Use as a necklace .</h3>
         <h4
           className="text-center text-3xl font-normal mb-32 mt-8 shadow-lg p-8"
           style={{ color: "#333232", width: "70%" }}
