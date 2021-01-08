@@ -12,11 +12,6 @@ function MyApp({ Component, pageProps }) {
     
           <title>Magnetic Sand Necklace for Stress Relief Anxiety </title>
           <meta charset="utf-8"/>
-          <meta property="og:type" content="website" />
-          <meta  name="og:title" property="og:title" content="Magnetic sand necklace , stress relief jewelry"></meta>
-          <meta name="og:url" property="og:type" content="product"/>
-          <meta property="og:image" content="https://magneticsand.net/thumbnail.jpg" />
-
          
           <meta
             name="viewport"
@@ -36,6 +31,17 @@ function MyApp({ Component, pageProps }) {
     
           <meta name="language" content="English" />
           <meta name="thumbnail" content="/thumbnail.jpg" />
+         
+         
+          <meta property="og:type" content="website" />
+         
+         
+         
+          <meta  name="og:title" property="og:title" content="Magnetic sand necklace , stress relief jewelry"></meta>
+          <meta name="og:url" property="og:type" content="product"/>
+          <meta property="og:image" content="https://magneticsand.net/thumbnail.jpg" />
+
+         
           <link
             href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
             rel="stylesheet"
