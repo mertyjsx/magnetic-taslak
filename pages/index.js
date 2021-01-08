@@ -127,7 +127,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <p class="text-center text-gray-500 text-1xl">
-            &copy;2020 Magnetic Sand All rights reserved.
+            &copy;2021 Magnetic Sand All rights reserved.
           </p>
         </a>
         <a
@@ -163,6 +163,22 @@ export default function Home() {
           pinterest
         </a>
 
+        <a
+          href="https://magneticsand.net"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="social text-sm "
+        >
+           website
+        </a>
+        <a
+          href="https://magneticsand.net/products"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="social text-sm"
+        >
+          products
+        </a>
       </footer>
     </div>
   );
