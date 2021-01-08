@@ -71,14 +71,7 @@ export default function Home() {
           </span>
         </h4>
 
-        <iframe
-          width="80%"
-          height="400px"
-          src="https://www.youtube.com/embed/oDqmi-0kDLo"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
+        
         <Ara></Ara>
         <h2 className="text-center text-6xl font-bold ">
           Location of magnetic sand
@@ -171,14 +164,7 @@ export default function Home() {
         >
            website
         </a>
-        <a
-          href="https://magneticsand.net/products"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="social text-sm"
-        >
-          products
-        </a>
+      
       </footer>
     </div>
   );

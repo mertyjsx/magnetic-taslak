@@ -18,11 +18,12 @@ export default function Home() {
           </div>
 
           <div className="relative lg:pt-4 lg:ml-8 md:ml-16 lg:mt-4">
-            <img
-              src="/ezgif.gif"
-              alt="magnetic sand"
-              className="kum   md:ml-32     lg:ml-16 ml-16 xl:mb-0  mb-16 lg:mb-8 lg:mt-8"
-            ></img>
+        
+            
+<video  autoPlay loop muted>
+        <source src="/magneticVideo.mp4" type='video/mp4' />
+          Your browser does not support the video tag
+      </video>
           </div>
         </div>
       </div>
