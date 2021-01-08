@@ -12,6 +12,7 @@ import Thymus from "../components/thymus";
 import Level2 from "../components/level2";
 import Level3 from "../components/level3";
 import Buttons from "../components/buttons";
+import ReactPlayer from 'react-player/lazy'
 
 import config from "react-reveal/globals";
 
@@ -71,14 +72,7 @@ export default function Home() {
           </span>
         </h4>
 
-        <iframe
-          width="80%"
-          height="400px"
-          src="https://www.youtube.com/embed/oDqmi-0kDLo"
-          frameborder="0"
-         
-          allowfullscreen
-        ></iframe>
+        <ReactPlayer url='https://www.youtube.com/watch?v=oDqmi-0kDLo' />
         <Ara></Ara>
         <h2 className="text-center text-6xl font-bold ">
           Location of magnetic sand
