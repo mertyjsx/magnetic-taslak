@@ -1,6 +1,7 @@
 import React, { useEffect } from "react"
 
 import config from 'react-reveal/globals';
+import foto from "../public/new-tr.webp";
 
 config({ ssrFadeout: true });
 import {Fade} from "react-reveal"
@@ -54,7 +55,7 @@ export default function Home() {
 
 
 
-<img className="kolye" alt="magnetic jewelry" src="/new_tr.jpg">
+<img className="kolye" src={foto} alt="magnetic jewelry" >
 
 
 

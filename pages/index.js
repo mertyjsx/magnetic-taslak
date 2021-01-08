@@ -71,7 +71,14 @@ export default function Home() {
           </span>
         </h4>
 
-        
+        <iframe
+          width="80%"
+          height="400px"
+          src="https://www.youtube.com/embed/oDqmi-0kDLo"
+          frameborder="0"
+         
+          allowfullscreen
+        ></iframe>
         <Ara></Ara>
         <h2 className="text-center text-6xl font-bold ">
           Location of magnetic sand
