@@ -12,7 +12,6 @@ import Thymus from "../components/thymus";
 import Level2 from "../components/level2";
 import Level3 from "../components/level3";
 import Buttons from "../components/buttons";
-import ReactPlayer from 'react-player/lazy'
 
 import config from "react-reveal/globals";
 
@@ -27,7 +26,7 @@ export default function Home() {
   useEffect(() => {
     setTimeout(() => {
       setloading(false);
-    }, 1500);
+    }, 3500);
   });
 
   return (
@@ -72,8 +71,21 @@ export default function Home() {
           </span>
         </h4>
 
-        <ReactPlayer url='https://www.youtube.com/watch?v=oDqmi-0kDLo' />
-        <Ara></Ara>
+      {
+!loading&&[
+
+  <iframe
+  width="80%"
+  height="400px"
+  src="https://www.youtube.com/embed/oDqmi-0kDLo"
+  frameborder="0"
+ 
+  allowfullscreen
+></iframe>,
+<Ara></Ara>
+]
+
+      }
         <h2 className="text-center text-6xl font-bold ">
           Location of magnetic sand
         </h2>
@@ -92,7 +104,7 @@ export default function Home() {
           It is completely natural. It sticks to you and is difficult to come
           off, you can collect it with a magnet
         </p>
-        <Kumtası></Kumtası>
+     {!loading&&  <Kumtası></Kumtası>}
 
         <Level2></Level2>
 
