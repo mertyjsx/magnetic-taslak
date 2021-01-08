@@ -1271,3 +1271,7 @@ height: 300px;
 body{
   overflow-x: hidden;
 }
+
+.social{
+  margin:10px;
+}

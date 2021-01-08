@@ -128,6 +128,39 @@ export default function Home() {
             &copy;2020 Magnetic Sand All rights reserved.
           </p>
         </a>
+        <a
+          href="https://www.instagram.com/unye_manyetik_kumtasi/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="social"
+        >
+          instagram
+        </a>
+        <a
+          href="https://www.etsy.com/shop/MagneticPendant"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="social"
+        >
+          etsy
+        </a>
+        <a
+          href="twitter.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="social"
+        >
+          twitter
+        </a>
+        <a
+          href="https://www.pinterest.com/targaryengg15"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="social"
+        >
+          pinterest
+        </a>
+
       </footer>
     </div>
   );
