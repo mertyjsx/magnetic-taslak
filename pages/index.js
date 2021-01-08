@@ -35,6 +35,8 @@ export default function Home() {
         <Manyetik></Manyetik>
         <div style={{ display: "none" }}>
           <h2>Stress relief anxiety</h2>,<h2>gift for girlfriend necklace </h2>,
+          <p>Magnetic black sand beach hawaii ,island.Crystal store near me,Stress relief,gemstone list,how does kinetic sand work ,magnetite uses,handmade on amazon
+         </p>,
           <h2>Magnetite pendant </h2>,<h2>Gemstone dice </h2>,
           <h3> anxiety attack vs panic attack</h3>,
           <h3> how many chakra are there </h3>,
@@ -81,7 +83,7 @@ export default function Home() {
         <h2 className="text-center text-6xl font-bold ">
           Location of magnetic sand
         </h2>
-        <h4
+        <p
           className="text-center text-3xl font-normal mb-32 mt-8 shadow-lg p-8"
           style={{ color: "#333232", width: "70%" }}
         >
@@ -95,7 +97,7 @@ export default function Home() {
           <br></br>
           It is completely natural. It sticks to you and is difficult to come
           off, you can collect it with a magnet
-        </h4>
+        </p>
         <Kumtası></Kumtası>
 
         <Level2></Level2>
@@ -103,7 +105,7 @@ export default function Home() {
         <h2 className="text-center text-6xl font-bold mb-4 mt-8">
           What is our difference ?
         </h2>
-        <h4
+        <p
           className="text-center text-3xl font-normal mb-32 shadow-lg p-4 "
           style={{ color: "#333232", width: "70%" }}
         >
@@ -113,7 +115,7 @@ export default function Home() {
           <span class="text-3xl font-bold text-black ml-2">
             Health and elegance together.
           </span>
-        </h4>
+        </p>
         <Buttons></Buttons>
       </main>
       <Email></Email>
@@ -145,7 +147,7 @@ export default function Home() {
           etsy
         </a>
         <a
-          href="twitter.com/"
+          href="https://www.twitter.com/"
           target="_blank"
           rel="noopener noreferrer"
           className="social"

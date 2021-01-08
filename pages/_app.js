@@ -11,7 +11,8 @@ function MyApp({ Component, pageProps }) {
     
     
           <title>Magnetic Sand Necklace for Stress Relief Anxiety </title>
-          <meta charset="utf-8"/>
+          <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+         
          
           <meta
             name="viewport"
