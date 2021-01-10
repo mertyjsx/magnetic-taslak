@@ -81,12 +81,12 @@ export default function Home() {
   frameborder="0"
  
   allowfullscreen
-></iframe>,
-<Ara></Ara>
+></iframe>
+
 ]
 
       }
-        <h2 className="text-center text-6xl font-bold ">
+        <h2 className="text-center text-6xl font-bold mt-16">
           Location of magnetic sand
         </h2>
         <p
@@ -104,7 +104,7 @@ export default function Home() {
           It is completely natural. It sticks to you and is difficult to come
           off, you can collect it with a magnet
         </p>
-     {!loading&&  <Kumtası></Kumtası>}
+     
 
         <Level2></Level2>
 
