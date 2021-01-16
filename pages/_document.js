@@ -35,7 +35,7 @@ class MyDocument extends Document {
     ></meta>
     <meta
       name="description"
-      content="Magnetic sand beach hawaii. Crystal store near me, Stress relief,gemstone list, how does kinetic sand work , magnetite uses, sand of Magnetic
+      content="Magnetic sand ,buy magnetic sand etsy . Crystal store near me, Stress relief anxiety sand, gemstone list  , magnetite uses, sand of Magnetic
       "
     />
     <meta
