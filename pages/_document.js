@@ -38,6 +38,7 @@ class MyDocument extends Document {
       content="Magnetic sand ,buy magnetic sand etsy . Crystal store near me, Stress relief anxiety sand, gemstone list  , magnetite uses, sand of Magnetic
       "
     />
+    <meta name="p:domain_verify" content="f7ff4e16ee81b34b14d1d43bd2341086"/>
     <meta
       name="keywords"
       content="magnetic,sand,stone,seasand,gift,breastmilk jewelry,magnetic sand necklace,pendant,stress,age,health,anxiety,necklace,etsy , stress relief , gemstone"
