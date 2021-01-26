@@ -27,7 +27,7 @@ class MyDocument extends Document {
     
     <title>Magnetic Sand Necklace for Stress Relief Anxiety </title>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
-   
+    <meta name="p:domain_verify" content="f7ff4e16ee81b34b14d1d43bd2341086"/>
    
     <meta
       name="viewport"
