@@ -25,7 +25,7 @@ class MyDocument extends Document {
               />
     
     
-    <title>Magnetic Sand Necklace for Stress Relief Anxiety </title>
+    <title>Anxiety necklaces , Stress relief Lodestone Magnetic sand  </title>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
     <meta name="p:domain_verify" content="f7ff4e16ee81b34b14d1d43bd2341086"/>
    
@@ -35,7 +35,7 @@ class MyDocument extends Document {
     ></meta>
     <meta
       name="description"
-      content="Magnetic sand ,buy magnetic sand etsy . Crystal store near me, Stress relief anxiety sand, gemstone list  , magnetite uses, sand of Magnetic
+      content="Anxiety necklace ,buy anxiety stress relief sand necklace .Lodestone gemstone list  , magnetite uses, sand of Magnetic
       "
     />
     <meta name="p:domain_verify" content="f7ff4e16ee81b34b14d1d43bd2341086"/>
