@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { lazy } from 'react';
 
 import styles from "../styles/Home.module.css";
 
@@ -16,7 +16,7 @@ const defaultOptions = {
   }
 };
 
-export default function Home() {
+ function Home() {
   const [scroll, setScroll] = React.useState(0);
   const [width, setWidth] = React.useState(1400);
 
@@ -120,3 +120,5 @@ export default function Home() {
     </div>
   );
 }
+
+export default Home

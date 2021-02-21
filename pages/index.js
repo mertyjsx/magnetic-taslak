@@ -7,10 +7,11 @@ import Link from "next/link";
 import Navbar from "../components/navbar";
 import Kumtası from "../components/kumtası";
 import { RotateLoader } from "react-spinners";
-import Manyetik from "../components/manyetik";
-import Thymus from "../components/thymus";
-import Level2 from "../components/level2";
-import Level3 from "../components/level3";
+import dynamic from "next/dynamic";
+const Manyetik = dynamic(() => import('../components/manyetik'));
+const Thymus = dynamic(() => import('../components/thymus'));
+const Level2 = dynamic(() => import('../components/level3'));
+const Level3 = dynamic(() => import('../components/level2'));
 import Buttons from "../components/buttons";
 import Feature from "./features";
 import Scale from "../components/ScaleText";
@@ -112,7 +113,7 @@ export default function Home() {
       <main className={styles.main}>
         <Link href="iletisim"><div className="but il">İletişim</div></Link>
 
-      
+        <Manyetik></Manyetik>
 
         <Fade duration={2000}>
           <h2 className="text-center wh text-6xl font-bold mb-32 shadow-lg"></h2>
@@ -121,8 +122,8 @@ export default function Home() {
           Kolye haline getirdik
         </h3>
         <h4
-          className="text-center text-3xl font-normal  mt-8 shadow-lg p-8 responsiveWidth"
-          style={{ color: "#333232" }}
+          className="shadow-lg text-3xl contentful responsiveWidth"
+         
         >
           Ünye sahillerinde bulunan, içinde 20’ye yakın mineral olduğu tespit
           edilen, vücudun stresten arınmasına yardımcı olan manyetik siyah
