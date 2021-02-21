@@ -90,7 +90,7 @@ export default function Home() {
             </h1>
             <h3
               className="text-start text-3rem md:text-xl lg:text-2xl text-white  font-normal mt-4"
-              style={{ color: "#bdbdbd", zIndex: 99 }}
+              style={{ color: "#8d8d8d", zIndex: 99 }}
             >
               Sanatsal takılar
             </h3>

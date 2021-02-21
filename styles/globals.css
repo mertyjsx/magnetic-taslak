@@ -1478,8 +1478,8 @@ z-index: 20;
     transition:border-radius 2s;
     background-color:#282828;
       position: absolute;
-      max-width: 100vh;
-     max-height: 100vh;
+      max-width: 85vh;
+     max-height: 85vh;
       
     }
     .banner{
