@@ -101,9 +101,32 @@
   border-color: #0070f3;
 }
 
+.mt30{
+  margin-top: 30px;
+}
+.m30{
+  margin: 30px;
+}
+
+.ml20{
+  margin-left: 30px;
+}
+
 .card h3 {
   margin: 0 0 1rem 0;
   font-size: 1.5rem;
+}
+.card h2 {
+  margin: 1rem;
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-align: center;
+  padding: 10px;
+}
+
+
+.card:hover{
+  cursor: pointer;
 }
 
 .card p {
@@ -185,6 +208,9 @@ app base
   font-weight: 100;
   line-height: 45px;
 }
+
+
+
 
 .shuffle:hover {
   background: #f9f9f9;
@@ -294,6 +320,33 @@ a {
   flex: 1;
 }
 
+
+.rotateTop{
+  top: 5%;
+  left: 45%;
+  transition: transform 0.7s linear;
+
+}
+.rotateLeft{
+  top: 45%;
+  left: 2%;
+  
+}
+
+.rotateRight{
+  top: 45%;
+  right: 2%;
+  
+}
+.rotateBottom{
+  bottom: 5%;
+  left: 45%;
+}
+
+
+
+
+
 .ant-btn-primary {
   background-color: #ca6a9a !important;
   border-color: #ca6a9a !important;
@@ -351,6 +404,16 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
+
+.magneticFeatureText{
+
+transition: all 4s;
+
+  position: absolute;
+  color: white;
+}
+
+
 @media only screen and (max-width: 600px) {
   html,
   body {
@@ -374,123 +437,314 @@ a {
   transform: rotate(180deg);
 }
 
-@media only screen and (max-width: 600px) {
-  .buttoncontainer {
-    width: 100%;
-    height: 556px;
-  }
+.right {
+  display: flex;
+  align-items: center;
 
-  .navbarContainer {
-    display: flex;
-    position: fixed;
-    width: 100%;
-    height: 69px;
-    backdrop-filter: saturate(180%) blur(20px);
-    background-color: rgba(255, 255, 255, 0.52);
-    border-bottom: 1px solid #d2d2d7;
-    z-index: 2200;
-    align-items: center;
+background-color: black;
 
-    flex-direction: row;
-    justify-content: space-between;
-    top: 0px;
-  }
+  width: 49%;
 
-  .logow {
-    width: 100px;
-    height: 100px;
-  }
-  h1 {
-    font-size: 8rem;
-    font-weight: 800;
-    word-spacing: 1;
-    letter-spacing: -0.07em !important;
-  }
-
-  .video {
-    height: 230px;
-    width: 347px;
-  }
-
-  .left {
-    position: absolute;
-    top: 55px;
-    left: 3%;
-    width: 40%;
-    height: 300px;
-    display: flex;
-    align-items: center;
-  }
-  .right {
-    display: flex;
-    align-items: center;
-    position: absolute;
-
-    top: 55px;
-    right: 3%;
-    width: 40%;
-    height: 300px;
-  }
-
-  .kum {
-    width: 300px;
-    height: 321px;
-    background-color: white;
-  }
-
-  .ab {
-    position: absolute;
-    width: 90px;
-    height: 200px;
-    left: 0;
-    top: 0;
-    background-color: white;
-  }
-
-  .üst {
-    color: #f2f2f2;
-
-    font-weight: 700;
-  }
-  .alt {
-    color: white;
-
-    font-weight: 600;
-  }
-  .yazı {
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
-    position: absolute;
-    top: 70px;
-    left: 10px;
-    z-index: 200;
-  }
-
-  .yazı2 {
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
-    text-align: left;
-
-    position: absolute;
-    z-index: 200;
-    right: 5px;
-    top: 40px;
-  }
-
-  .kolyeContainer {
-    overflow: hidden;
-    max-width: 97vw;
-    display: flex;
-    justify-content: center;
-    min-width: 200px;
-  }
 }
 
-.levelContainerS {
+.p30{
+  padding: 30px;
+}
+.il{
+  position: fixed;
+  bottom: 20px;
+  right: 20px
+}
+
+.stickLine{
+  position: -webkit-sticky;
+  position: sticky;
+  top:50vh;
+ 
+ 
+}
+
+.iconContainer{
+  z-index: 20;
   position: relative;
+  
+}
+.icon{
+  width: 100px;
+  height: 100px;
+ position: absolute;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ 
+}
+.icon img {
+  width: 60px;
+  height: 60px;
+}
+
+.featureText{
+  padding-top: 40px;
+}
+.scaleContainer{
+width: 100%;
+height: 1200px;
+color: white;
+z-index: 30;
+text-align: center;
+display: flex;
+align-items: flex-start;
+justify-content: center;
+font-size: 60px;
+font-weight: 800;
+position: relative;
+
+
+
+
+}
+.scaleContainer img{
+  position: sticky;
+  top: 300px;
+}
+
+.scaleText{
+
+  position: sticky;
+top: 300px;
+
+}
+
+.scaleText h3 {
+transition:color 4s;
+
+
+}
+.scaleText img{
+  transition: opacity 3s;
+}
+
+.wh{
+  color: white;
+}
+.tr{
+  color: transparent;
+}
+
+
+
+
+.textContainer{
+  width: 80%;
   display: flex;
   justify-content: center;
+  position: relative;
+  
+}
+
+.card{
+width: 47%;
+
+padding: 35px;
+  background-color: #f9f9f9;
+}
+
+.card2{
+  width: 47%;
+ 
+  padding: 30px;
+    background-color: #f9f9f9;
+  }
+  
+
+
+.magneticDotCircle{
+  padding: 70px;
+  border: 1px solid #ffffff66;
+  border-radius: 50%;
+  border-style: dashed;
+  z-index: 20;
+position: relative;
+}
+
+.magneticCircle{
+  padding: 40px;
+  border: 1px solid #ffffff66;
+  border-style: dashed;
+  border-radius: 50%;
+  z-index: 20;
+}
+.magneticBackground{
+  
+transition:border-radius 4s;
+background-color:#282828;
+  position: absolute;
+  max-width: 99vw;
+ max-height: 96vh;
+  
+}
+.responsiveWidth{
+  width: 70%;
+}
+.responsiveProduct{
+  padding: 10%;
+}
+.box{
+  padding: 50px;
+  display: flex;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.stickyContainer{
+  height: 900px;
+  margin-top: 200px;
   width: 100%;
-  height: 520px;
-  background: linear-gradient(180deg, #050505, #1f1f1f);
+  
+}
+
+.text-end{
+  text-align: end;
+}
+.mt220{
+  margin-top: 240px;
+}
+
+
+.stickyBackground{
+
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0px;
+}
+.leftText{
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  
+  left: 60px;
+  width: 17%;
+  height: 100%;
+}
+.leftText h2{
+  font-size: 40px;
+}
+.rightText h2{
+  font-size: 40px;
+  color: white;
+
+}
+
+.rightText{
+  position: absolute;
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  right: 50px;
+  width: 18%;
+  height: 100%;
+}
+
+
+.h800{
+  height: 400px;
+}
+
+.productText{
+  width: 100%;
+
+}
+
+.buttonBlack{
+width: 40%;
+height: 100px;
+display: flex;
+text-align: center;
+align-items: center;
+justify-content: center;
+color: white;
+font-size: 20px;
+border-radius: 50px;
+background-color: black;
+}
+
+
+
+.productTextImg{
+  width: 100%;
+}
+
+.productContainer{
+  width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+
+} 
+
+.productContainerImage{
+  width: 50%;
+  position: sticky;
+  top: 0px;
+  margin-bottom: 40px;
+}
+.urun_text{
+  font-size: 2.5rem;
+}
+.urun_acıklama{
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: start;
+}
+
+
+.featureContainer{
+width: 100%;
+display: flex;
+justify-content: center;
+}
+
+.featureBackground{
+width: 70%;
+height: 800px;
+
+}
+.featureContent{
+height:800px;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.featureText{
+
+}
+
+
+
+.levelContainerS {
+  
+  position: sticky;
+  top: 86px;
+  display: flex;
+  justify-content: space-between;
+  padding:1% 1%;
+
+  width: 100%;
+  background-color: white;
+ 
   z-index: 1;
 }
 
@@ -514,6 +768,49 @@ a {
   padding-bottom: 4px;
   border-radius: 32px;
 }
+
+.new_but {
+ 
+  cursor: pointer;
+  display: flex;
+  width: 100px;
+  align-self: center;
+  height: 30px;
+  text-align: center;
+  white-space: nowrap;
+  background: red;
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.33337;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+align-items: center;
+justify-content: center;
+margin-top: 20px;
+  border-radius: 32px;
+}
+
+.centerColumn{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.imgR{
+
+background-image: url("/new_3.jpg");
+background-position: bottom;
+background-size: 130%;
+transition:background-size 3s;
+
+}
+
+.imgS{
+
+  background-size: 100% !important;
+
+}
+
+
 
 .button1 {
   margin-right: 50px;
@@ -539,6 +836,10 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+}
+
+.column{
   flex-direction: column;
 }
 
@@ -594,11 +895,18 @@ a {
 
   z-index: 1;
 }
+.midd{
+  padding-top: 450px;
+  border-top-left-radius:50% ;
+ border-top-right-radius:50% ;
+ position: relative;
+ background-color: blanchedalmond;
+}
+
 .middle {
   z-index: 500;
   position: relative;
-  background-color: black;
-  margin-top: 150px;
+
 
   width: 100%;
   bottom: -3px;
@@ -622,6 +930,54 @@ a {
   width: 2px;
 }
 
+.fullh{
+  height: 100vh;
+}
+.h100{
+  height: 100%;
+}
+.ca{
+  justify-content: spa;
+}
+.w50{
+  width: 42%;
+}
+.black{
+background-color: black;
+  color: white;
+}
+
+.circleR{
+border-radius: 50%;
+z-index: 20;
+}
+.circleContainer{
+padding: 20px;
+border-radius: 50%;
+background-color:#d6d9d9;
+z-index: 20;
+}
+
+.circleContainer2{
+  padding: 20px;
+  border-radius: 50%;
+  background-color:#a1a3a3;
+  
+  }
+  .circleContainer3{
+    padding: 20px;
+    border-radius: 50%;
+    background-color: #595a5a;
+    
+    }
+    .circleContainer4{
+      padding: 20px;
+      border-radius: 50%;
+      border: 2px solid white;
+      
+      }
+
+
 .circle1 {
   display: flex;
   position: absolute;
@@ -640,6 +996,23 @@ a {
   text-align: center;
   color: white;
 }
+
+.tt{
+
+  font-size: 6rem;
+  line-height: 1.0625;
+  font-weight: 700;
+  letter-spacing: -.009em !important;
+}
+.text-3rem{
+  font-size: 3.5rem;
+}
+
+.column-center{
+  flex-direction: column;
+  justify-content: center;
+}
+
 
 .buttons {
   display: flex;
@@ -775,6 +1148,8 @@ a {
   color: white;
 }
 
+
+
 .tag2 {
   width: 100%;
   position: absolute;
@@ -790,6 +1165,23 @@ a {
 .gr {
   color: gray;
 }
+.banner{
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.bannerContent{
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+}
 
 .tag {
   width: 100%;
@@ -801,6 +1193,21 @@ a {
   font-weight: 700;
   color: white;
 }
+
+
+.left {
+  
+  background-color: black;
+ 
+     width: 49%;
+     
+     display: flex;
+     align-items: center;
+   }
+   .logow {
+    width: 50%
+   
+  }
 
 @media only screen and (min-width: 600px) and (max-width: 900px) {
   .buttoncontainer {
@@ -831,37 +1238,16 @@ a {
     letter-spacing: -0.07em !important;
   }
 
-  .logow {
-    width: 152px;
-    height: 152px;
-  }
+ 
 
   .video {
     height: 350;
     width: 550px;
   }
-  .left {
-    position: absolute;
-    top: 55px;
-    left: 3%;
-    width: 40%;
-    height: 300px;
-    display: flex;
-    align-items: center;
-  }
-  .right {
-    display: flex;
-    align-items: center;
-    position: absolute;
-
-    top: 55px;
-    right: 3%;
-    width: 40%;
-    height: 300px;
-  }
-
+ 
+ 
   .kolyeContainer {
-    overflow: hidden;
+   
     max-width: 97vw;
     min-width: 450px;
     display: flex;
@@ -981,36 +1367,14 @@ a {
     letter-spacing: -0.07em !important;
   }
 
-  .logow {
-    width: 152px;
-    height: 152px;
-  }
+
   .video {
     height: 350px;
     width: 550px;
   }
-  .left {
-    position: absolute;
-    top: 55px;
-    left: 3%;
-    width: 40%;
-    height: 300px;
-    display: flex;
-    align-items: center;
-  }
-  .right {
-    display: flex;
-    align-items: center;
-    position: absolute;
-
-    top: 55px;
-    right: 3%;
-    width: 40%;
-    height: 300px;
-  }
 
   .kolyeContainer {
-    overflow: hidden;
+  
     max-width: 97vw;
     min-width: 800px;
     display: flex;
@@ -1029,19 +1393,22 @@ a {
   }
   .yazı {
     position: absolute;
-    top: 100px;
-    left: 110px;
+    top: 30px;
+    left: 70px;
     z-index: 200;
   }
 
   .yazı2 {
-    text-align: left;
+    text-align: right;
     position: absolute;
     z-index: 200;
-    left: 110px;
-    bottom: 80px;
+    right: 100px;
+    top: 80px;
   }
 
+  .mt60{
+    margin-top: 60px;
+  }
   .ab {
     position: absolute;
     width: 150px;
@@ -1086,10 +1453,435 @@ a {
   width: 100vw !important;
 }
 
-body {
-  overflow-x: hidden;
-}
+
 
 .social {
   margin: 10px;
+}
+.translateTop{
+  -webkit-animation: myOrbit 4s linear infinite; /* Chrome, Safari 5 */
+  -moz-animation: myOrbit 4s linear infinite; /* Firefox 5-15 */
+    -o-animation: myOrbit 4s linear infinite; /* Opera 12+ */
+       animation: myOrbit 4s linear infinite;
+}
+.tranlateRight{
+  transform: translate(200px,200px);
+
+}
+.translateBottom{
+  transform: rotate(45deg) translate(-200px,-200px);
+}
+
+@media only screen and (min-width: 1200px){
+  .magneticBackground{
+  
+    transition:border-radius 2s;
+    background-color:#282828;
+      position: absolute;
+      max-width: 99vw;
+     max-height: 86vh;
+      
+    }
+    .banner{
+      height: 450px;
+    }
+
+}
+@media only screen and (max-width: 1200px) and (min-width: 600px) {
+ .tt{
+   font-size: 4rem;
+ }
+
+ .mt220{
+  margin-top: 300px;
+}
+
+.magneticBackground{
+  
+  transition:border-radius 2s;
+  background-color:#282828;
+    position: absolute;
+    max-width: 99vw;
+   max-height: 60vh;
+    
+  }
+
+}
+
+
+.bannerText{
+  font-size: 8rem;
+}
+.bannerText2{
+  position: absolute;
+  right: 30px;
+  bottom: 50px;
+  font-size: 2rem;
+}
+@media only screen and (max-width: 600px) {
+  .urun__item__text {
+    font-size: 14px !important;
+  }
+.urun_acıklama > h3{
+  font-size: 12px;
+}
+.urun_acıklama{
+  padding: 20px;
+}
+
+.bannerText{
+  font-size: 20px;
+}
+.bannerText2{
+ 
+  bottom: 20px;
+  font-size: 2rem;
+}
+.banner{margin-top: 50px;}
+
+.navbarContainer{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.sss{
+  margin-top: 40px;
+}
+
+  .productContainer{
+    margin-top: 50px;
+  }
+  .productContainerImage{
+    margin-bottom: 5px;
+  }
+  .p-10{
+    padding: 0.5rem;
+  }
+.buttonBlack{
+  width: 70%;
+}
+  .responsiveWidth{
+    width: 90%;
+  }
+  .buttoncontainer {
+    width: 100%;
+    height: 556px;
+  }
+
+  .magneticBackground{
+  
+    transition:border-radius 2s;
+    background-color:#282828;
+      position: absolute;
+      max-width: 99vw;
+     max-height: 100vh;
+      
+    }
+  .navbarContainer {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 69px;
+    backdrop-filter: saturate(180%) blur(20px);
+    background-color: rgba(255, 255, 255, 0.52);
+    border-bottom: 1px solid #d2d2d7;
+    z-index: 2200;
+    align-items: center;
+
+    flex-direction: row;
+    justify-content: space-between;
+    top: 0px;
+  }
+.tt{
+  text-align: center;
+}
+.stickyContainer{
+  margin-top: 30px;
+}
+.magneticDotCircle{
+  position: relative;
+  padding: 30px;
+}
+.magneticCircle{
+  padding: 30px;
+}
+.blacks{
+  position: absolute;
+  bottom: -200px;
+  font-size: 30px;
+
+}
+
+
+  h1 {
+    font-size: 8rem;
+    font-weight: 800;
+    word-spacing: 1;
+    letter-spacing: -0.07em !important;
+  }
+
+  .video {
+    height: 230px;
+    width: 347px;
+  }
+
+  
+  
+
+  .kum {
+    width: 300px;
+    height: 321px;
+    background-color: white;
+  }
+
+  .ab {
+    position: absolute;
+    width: 90px;
+    height: 200px;
+    left: 0;
+    top: 0;
+    background-color: white;
+  }
+
+  .üst {
+    color: #f2f2f2;
+
+    font-weight: 700;
+  }
+  .alt {
+    color: white;
+
+    font-weight: 600;
+  }
+  .yazı {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    position: absolute;
+    top: 70px;
+    left: 10px;
+    z-index: 200;
+  }
+
+  .yazı2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    text-align: left;
+
+    position: absolute;
+    z-index: 200;
+    right: 5px;
+    top: 40px;
+  }
+
+  .kolyeContainer {
+   
+    max-width: 97vw;
+    display: flex;
+    justify-content: center;
+    min-width: 200px;
+  }
+ 
+
+
+.stickLine{
+  top: 55vh;
+  margin-top: 100px;
+}
+.responsiveProduct{
+  padding: 5%;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.icon img{
+  width: 30px;
+  height: 30px;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+}
+
+.rightText h2{
+  font-size: 18px;
+}
+.rightText{
+  width: 20%;
+  right: 0px;
+}
+.leftText{
+  width: 20%;
+  left: 0px;
+  font-size: 18px;
+}
+
+.leftText h2{
+  font-size: 18px;
+}
+
+}
+
+
+
+.cards {
+
+  background: #fff;
+}
+
+
+.cards__container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  max-width: 1120px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.cards__wrapper {
+  position: relative;
+  margin: 50px 0 45px;
+}
+
+.cards__items {
+  margin-bottom: 24px;
+}
+
+.cards__item {
+  display: flex;
+  flex: 1;
+ margin: 0 14px;
+  border-radius: 10px;
+}
+
+
+.cards__item_ {
+  display: flex;
+  flex: 1;
+
+  border-radius: 10px;
+}
+
+.cards__item__link {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+  -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  border-radius: 10px;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.cards__item__pic-wrap {
+  position: relative;
+  width: 100%;
+  padding-top: 67%;
+  overflow: hidden;
+}
+
+.fade-img {
+  animation-name: fade-img;
+  animation-duration: 2s;
+}
+
+.cards__item__pic-wrap::after {
+  content: attr(data-category);
+  position: absolute;
+  bottom: 0;
+  margin-left: 10px;
+  padding: 6px 8px;
+  max-width: calc((100%) - 60px);
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #1f98f4;
+  box-sizing: border-box;
+}
+
+.cards__item__img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  transition: all 0.7s linear;
+}
+
+.cards__item__img:hover {
+  transform: scale(1.4);
+  cursor: pointer;
+}
+
+.cards__item__info {
+  padding: 20px 30px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cards__item__info:hover{
+  cursor: pointer;
+}
+
+.cards__item__text {
+  color: #252e48;
+  font-size: 18px;
+  line-height: 24px;
+  width: 70%;
+}
+
+.urun__item__text {
+  color: #252e48;
+  font-size: 18px;
+  line-height: 24px;
+  
+}
+
+.urun_acıklama > h2{
+  font-size: 2rem;
+  color: rgb(189, 189, 189);
+
+}
+.urun_acıklama > h3{
+  
+  color: red;
+
+
+  
+}
+.urun_acıklama > h4{
+
+}
+
+@media only screen and (min-width: 1200px) {
+  .content__blog__container {
+    width: 84%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .cards__items {
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .cards__item {
+    margin-bottom: 2rem;
+  }
+}
+
+a,Link:hover{
+  cursor: pointer;
+}
+.needHover:hover{
+  cursor: pointer;
+}
+.h100{
+  height: 100vh;
 }

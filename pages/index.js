@@ -12,6 +12,10 @@ import Thymus from "../components/thymus";
 import Level2 from "../components/level2";
 import Level3 from "../components/level3";
 import Buttons from "../components/buttons";
+import Feature from "./features";
+import Scale from "../components/ScaleText";
+import ButtonContainer from "../components/buttonContainer";
+import SampleProduct from "../components/SampleProduct";
 
 import config from "react-reveal/globals";
 
@@ -23,108 +27,119 @@ import Email from "../components/email";
 export default function Home() {
   const [loading, setloading] = useState(true);
   const size = useWindowSize();
-  useEffect(() => {
-    setTimeout(() => {
-      setloading(false);
-    }, 3500);
-  });
+
 
   return (
-    <div className={styles.container}>
+    <div className={""}>
+      <Head>
+        <title>Stress relief Lodestone Magnetic sand </title>
+        <meta
+          name="description"
+          content="Anxiety necklace ,buy anxiety stress relief sand necklace .Lodestone gemstone list  , magnetite uses, sand of Magnetic
+      "
+        />
+
+        <meta property="og:title" content="Ünye Manyetik Kumtaşı Klasik" />
+        <meta property="og:type" content="product" />
+        <meta property="og:url" content="https://unyemanyetik.com/klasik" />
+        <meta
+          property="og:image"
+          content="https://unyemanyetik.com/thumbnail.jpg"
+        />
+        <meta
+          property="og:description"
+          content="Ünye Manyetik kumundan yapılan sanatsal takı , Stres kolyesi , Terapi kolyesi"
+        />
+
+        <meta property="product:price:amount" content="75" />
+        <meta property="product:price:currency" content="TRY" />
+
+        <meta property="twitter:card" content="summary_large_image"></meta>
+        <meta name="twitter:title" content="Ünye Manyetik Kumtaşı"></meta>
+
+        <meta
+          name="twitter:description"
+          content="Stres avcısı manyetik kumdan yapılan sanatsal kolye"
+        ></meta>
+
+        <meta
+          name="twitter:image"
+          content="https://unyemanyetik.com/thumbnail.jpg"
+        ></meta>
+
+        <meta name="twitter:site" content="@magneticsand__"></meta>
+
+        <meta name="twitter:creator" content="@magneticsand__"></meta>
+
+        <title>Ünye Manyetik Kumu | Sanatsal El yapımı kolye</title>
+        <meta
+          name="title"
+          content="Ünye Manyetik Kumu | Sanatsal El yapımı kolye"
+        ></meta>
+        <meta
+          name="description"
+          content="Ünye Manyetik kumundan yapılan sanatsal takı , Stres kolyesi , Terapi kolyesi , El yapımı doğal taş kolye , Quartz "
+        ></meta>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `
+                  "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "Ünye Manyetik Kumtaşı",
+      "image": [
+        "https://unyemanyetik.com/pure.jpg",
+       
+       ],
+      "description": "Ünye Manyetik kumundan yapılan sanatsal takı , Stres kolyesi , Terapi kolyesi",
+  
+       
+      },
+    
+      "offers": {
+        "@type": "Offer",
+        "url": "https://unyemanyetik.com/klasik",
+        "priceCurrency": "TRY",
+        "price": "75",
+       
+        "availability": "https://schema.org/InStock"
+      }
+                  `,
+          }}
+        />
+      </Head>
       <main className={styles.main}>
+        <Link href="iletisim"><div className="but il">İletişim</div></Link>
+
         <Manyetik></Manyetik>
-        <div style={{ display: "none" }}>
-          <h2>Stress relief anxiety</h2>,<h3>gift for girlfriend necklace </h3>,
-          <p>Magnetic black sand beach hawaii ,island.Crystal store near me,Stress relief,gemstone list,how does kinetic sand work ,magnetite uses,handmade on amazon
-         </p>,
-          <h3>Magnetite pendant </h3>,<h3>Gemstone dice </h3>,
-          <h3> anxiety attack vs panic attack</h3>,
-          <h3> how many chakra are there </h3>,
-          <h3> stress relief the office</h3>,<h3>stress effects on body</h3>,
-          <h3>crystal store near me</h3>,<h3> black sand beach hawaii</h3>,
-          <h3>black sand beach on the big island</h3>,
-          <h3>healing properties of amethyst</h3>,<h3>Breastmilk jewelry </h3>,
-          <h4>valentines day </h4>,<h4>necklaces for women </h4>,
-        </div>
 
-        <Levelline></Levelline>
         <Fade duration={2000}>
-          <h2 className="text-center text-6xl font-bold mb-32 shadow-lg">
-            Trigger the thymus gland .
-          </h2>
+          <h2 className="text-center wh text-6xl font-bold mb-32 shadow-lg"></h2>
         </Fade>
-        <Thymus></Thymus>
-
-        <Level3></Level3>
-
-        <h3 className="text-center text-6xl font-bold ">Use as a necklace .</h3>
+        <h3 className="text-center text-6xl font-bold mt220 ">
+          Kolye haline getirdik
+        </h3>
         <h4
-          className="text-center text-3xl font-normal mb-32 mt-8 shadow-lg p-8"
-          style={{ color: "#333232", width: "70%" }}
+          className="text-center text-3xl font-normal  mt-8 shadow-lg p-8 responsiveWidth"
+          style={{ color: "#333232" }}
         >
-          After long efforts, we made it into stone so that you can use it where
-          your thymus gland is.You can use it as a necklace. Besides its
-          benefits,
+          Ünye sahillerinde bulunan, içinde 20’ye yakın mineral olduğu tespit
+          edilen, vücudun stresten arınmasına yardımcı olan manyetik siyah
+          kumdan; özel işlemlere tabi tutularak, el işçiliği ile üretilmiştir.
           <br></br>
           <span class="text-3xl font-bold text-black">
-            you can use it as a stylish accessory.
+            Siyah Manyetik kumu tasarımla buluşturduk
           </span>
         </h4>
 
-      {
-!loading&&[
-
-  <iframe
-  width="80%"
-  height="400px"
-  src="https://www.youtube.com/embed/oDqmi-0kDLo"
-  frameborder="0"
- 
-  allowfullscreen
-></iframe>
-
-]
-
-      }
-        <h2 className="text-center text-6xl font-bold mt-16">
-          Location of magnetic sand
-        </h2>
-        <p
-          className="text-center text-3xl font-normal mb-32 mt-8 shadow-lg p-8"
-          style={{ color: "#333232", width: "70%" }}
-        >
-          Which gives its name to the Black Sea sand, 4-kilometer beach is
-          located in the district of
-          <span class="text-3xl font-bold text-black ml-2">
-            <Link href="https://goo.gl/maps/1X8JcURvEbemsAEE6">
-              Turkey Unye.
-            </Link>
-          </span>
-          <br></br>
-          It is completely natural. It sticks to you and is difficult to come
-          off, you can collect it with a magnet
-        </p>
-     
+        <SampleProduct></SampleProduct>
+        <ButtonContainer></ButtonContainer>
+        <Thymus></Thymus>
 
         <Level2></Level2>
-
-        <h2 className="text-center text-6xl font-bold mb-4 mt-8">
-          What is our difference ?
-        </h2>
-        <p
-          className="text-center text-3xl font-normal mb-32 shadow-lg p-4 "
-          style={{ color: "#333232", width: "70%" }}
-        >
-          Ukraine, Japan use magnetic sand for healing purposes like sand bath,
-          however we are the only ones in the world that make this sand an
-          accessory.
-          <span class="text-3xl font-bold text-black ml-2">
-            Health and elegance together.
-          </span>
-        </p>
-        <Buttons></Buttons>
+        <Level3></Level3>
       </main>
-      <Email></Email>
 
       <footer className={styles.footer}>
         <a
@@ -144,14 +159,7 @@ export default function Home() {
         >
           instagram
         </a>
-        <a
-          href="https://www.etsy.com/shop/MagneticPendant"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="social"
-        >
-          etsy
-        </a>
+       
         <a
           href="https://www.twitter.com/"
           target="_blank"
@@ -170,14 +178,13 @@ export default function Home() {
         </a>
 
         <a
-          href="https://magneticsand.net"
+          href="https://unyemanyetik.com"
           target="_blank"
           rel="noopener noreferrer"
           className="social text-sm "
         >
-           website
+          website
         </a>
-      
       </footer>
     </div>
   );

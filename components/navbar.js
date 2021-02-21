@@ -26,7 +26,7 @@ return ([
     
 
 <div className="navbarContainer ">
-<div className="leftLink">
+<div className="leftLink needHover">
     <Link href="/">
     
 <img src="/lala.png" alt="magnetic sand" style={{width:70, height:62}}></img>
@@ -35,21 +35,17 @@ return ([
 </div>
 
 <div className="flex flex-row items-center">
-<a href="https://www.etsy.com/shop/MagneticPendant?ref=simple-shop-header-name&listing_id=845604646">
+<Link href="/iletisim">
 
-<h4 className="r5 hover" style={{fontWeight:600}}>Buy on ETSY</h4>
-
-</a>
-<Link href="/products">
-
-<div className="but">Products</div>
+<div className="ml-6 needHover">İletişim</div>
 
 </Link>
-<Link href="/contact">
+<Link href="/urunler">
 
-<div className="but">Contact us</div>
+<div className="but">Ürünler</div>
 
 </Link>
+
 
 
 

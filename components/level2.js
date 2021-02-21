@@ -1,100 +1,39 @@
-import React from "react"
-
-import Link from "next/link"
-import config from 'react-reveal/globals';
-import {Fade} from "react-reveal"
+import React from "react";
+import { useRouter } from 'next/router'
+import Link from "next/link";
+import config from "react-reveal/globals";
+import { Fade } from "react-reveal";
 config({ ssrFadeout: true });
 
-const Line =()=>{
+const Line = ({ children, href }) => {
+    const router = useRouter()
 
- 
+    const handleClick = (e,href) => {
+        e.preventDefault()
+        router.push(href)
+      }
+  return (
+  
+      <div className=" flex flex-row items-center justify-center fullw mt30">
+        <Fade bottom>
+            <div onClick={(e)=>handleClick(e,"/iletisim")}  className="card flex-column center justify-center">
+          <img src="/lala.png" alt="magnetic sand" className="logow "></img>
+          <h2 className="ml20">İletişim</h2>
 
+          </div>
+        </Fade>
+        <Fade bottom>
+        <div onClick={(e)=>handleClick(e,"https://www.ox.ac.uk/news/2016-08-22-study-suggests-routes-improved-immunity-older-people")} className="card card flex-column-reverse center justify-center">
+        <div>
+        <h2>Oxford </h2>
+        <p className="text-center">Timus bezinin faydalarıyla alakalı araştırmalar</p>
+        </div>
+          <img src="/oxford.png" alt="magnetic sand" className="logow "></img>
+          
+          </div>
+        </Fade>
+      </div>)
 
-    return(
-[
-<div className="levelContainer1 mt-24">
+};
 
-
-
-
-<div className="left flex flex-col items-center justify-center">
-<Fade bottom>
-
-
-<img src="/lala.png"  alt="magnetic sand" className="logow"></img>
-<h3 className="text-center text-2xl  font-normal mt-4">
-You can discover our 
-<span className="font-bold ml-2 mr-2">
-    products
-    
-    </span>
-     made of magnetic sand
-</h3>
-</Fade>
-</div>
-
-
-<div className="right">
-<Fade bottom delay={300}>
-<div className=" flex flex-col justify-center">
-    <img src="oxford.png" alt="magnetic sand"  className="mb-4 self-center w-32 h-32" ></img>
-<h3 className="text-center text-2xl  font-normal  ">
-Proven resources
-</h3>
-
-<div className=" text-center w-full text-xl md:text-xl xl:text-2xl text-white  font-normal flex flex-wrap  flex-row items-center justify-center mt-8">
-<div className="flex flex-row items-center mr-2 ml-4 justify-start ">
-
-
-
-<Link href="https://www.ox.ac.uk/news/2016-08-22-study-suggests-routes-improved-immunity-older-people">Oxford</Link > 
-
-</div>
-<div className="flex flex-row items-center mr-1  ml-8  justify-start mt-2 mb-2 md:mt-0 md:mb-0">
-
-
-<Link  href="https://www.verywellhealth.com/thymus-gland-overview-4582270">Verywell Health</Link >  
-
-</div>
-<div className="mr-1 ml-8 flex flex-row items-center  ">
-
-
-<Link href="https://www.livescience.com/62527-thymus.html" >Live Science</Link > 
-
-</div>
-</div>
-
-
-</div>
-
-</Fade>
-</div>
-    
-
-
-
-
-
-<div className="lineContainer">
-
-<div className="line2"></div>
-<div className="circle2">
-4
-</div>
-
-</div>
-
-
-</div>,
-
-
-<h5 className="altyazı3">
-    Why us ?
-</h5>
-]
-
-    )
-
-}
-
-export default Line
+export default Line;

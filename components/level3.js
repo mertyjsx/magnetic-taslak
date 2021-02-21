@@ -1,50 +1,16 @@
-import React from "react"
+import React from "react";
 
+const Line = () => {
+  return [
+    <div className="levelContainer1 mt-30 ">
+      <div className="lineContainer">
+        <div className="line3"></div>
+        <div className="circle3"></div>
+      </div>
+    </div>,
 
-const Line =()=>{
+    <h5 className="altyazı">Ünye Manyetik Siyah Kum</h5>,
+  ];
+};
 
- 
-
-
-    return(
-[
-<div className="levelContainer1 mt-24">
-
-
-
-    
-<h3 className="tag3 text-bold shadow-lg" >How will I use ? </h3>
-
-
-
-
-
-
-
-
-<div className="lineContainer">
-
-<div className="line3"></div>
-<div className="circle3">
-2
-</div>
-
-</div>
-
-
-</div>
-
-
-,
-
-<h5 className="altyazı">
-    we turned it into stone
-</h5>
-]
-
-
-    )
-
-}
-
-export default Line
+export default Line;
