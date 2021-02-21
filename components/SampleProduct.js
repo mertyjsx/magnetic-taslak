@@ -21,7 +21,7 @@ export default function SampleProduct() {
         <img
         width="100%"
         height="100%"
-          src={`/new-tr${width<600?"_mobile.jpg":".webp"}`}
+          src={`/new-tr.webp`}
          
           alt={`/new-tr.jpg`}
           className="shadow-lg p-10 productTextImage"
