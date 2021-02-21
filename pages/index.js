@@ -1,20 +1,15 @@
 import React, { useEffect, useState } from "react";
-import Levelline from "../components/levelLine";
+
 
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Link from "next/link";
-import Navbar from "../components/navbar";
-import Kumtası from "../components/kumtası";
-import { RotateLoader } from "react-spinners";
+
 import dynamic from "next/dynamic";
-const Manyetik = dynamic(() => import('../components/manyetik'));
-const Thymus = dynamic(() => import('../components/thymus'));
-const Level2 = dynamic(() => import('../components/level3'));
-const Level3 = dynamic(() => import('../components/level2'));
-import Buttons from "../components/buttons";
-import Feature from "./features";
-import Scale from "../components/ScaleText";
+ import Manyetik from '../components/manyetik' 
+import Thymus from '../components/thymus'
+import Level2 from '../components/level3'
+import Level3 from '../components/level2'
 import ButtonContainer from "../components/buttonContainer";
 import SampleProduct from "../components/SampleProduct";
 
@@ -22,12 +17,9 @@ import config from "react-reveal/globals";
 
 config({ ssrFadeout: true });
 import { Fade } from "react-reveal";
-import Ara from "../components/aralevel";
 
-import Email from "../components/email";
 export default function Home() {
-  const [loading, setloading] = useState(true);
-  const size = useWindowSize();
+
 
 
   return (
