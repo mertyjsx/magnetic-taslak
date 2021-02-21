@@ -50,13 +50,7 @@ class MyDocument extends Document {
   
    
 <link rel="preload" as="video" href="/magneticVideo.mp4" type="video/mp4" />
-<link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;800&display=swap"
-      rel="stylesheet"
 
-    ></link>
-   
-    
   
          
   
