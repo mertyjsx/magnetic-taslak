@@ -101,7 +101,7 @@ export default function Home() {
 	    options={defaultOptions}
         height={"90vh"}
         width={"90vw"}
-       style={{position:"absolute",transition:"opacity 3s",opacity:radius?1:0.1}}
+       style={{position:"absolute",transition:"opacity 2s",opacity:radius?1:0.1}}
        
       />
               <div

@@ -80,7 +80,7 @@ function CardItem(props) {
       </Head>
       <figure className="cards__item__pic-wrap" data-category={"new"}>
         <img
-          src={"/magnehole.jpg"}
+           src={`/magnehole${width<600?"_mobile":""}.jpg`}
           alt="Gezi Imgae"
           className="cards__item__img cards__item__link"
           style={{objectPosition:"bottom"}}

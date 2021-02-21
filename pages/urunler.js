@@ -98,14 +98,14 @@ function Cards() {
               available={true}
             />
             <CardItem
-              src={"/magneflower.jpg"}
+              src={"/magneflower_mobile.jpg"}
               text="epoksi ve siyah kum"
               label="Yeni"
               path="/magneflower"
               available={true}
             />
               <CardItem
-              src={"/denizatı.jpg"}
+              src={"/denizatı_mobile.jpg"}
               text="deniz atı "
               label="Yeni"
               path="/denizati"
@@ -128,7 +128,7 @@ function Cards() {
 
             />
             <CardItem
-              src={"/special.jpg"}
+              src={"/special_mobile.jpg"}
               text="Manyetik kum üzerine quartz"
               label="Yeni"
               path="/special"
