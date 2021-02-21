@@ -16,7 +16,9 @@
 
   transform: rotate(-45deg);
 }
-
+.lottie{
+  position: absolute;
+}
 .main {
   width: 100%;
   padding: 3rem 0;
@@ -1478,8 +1480,8 @@ z-index: 20;
     transition:border-radius 2s;
     background-color:#282828;
       position: absolute;
-      max-width: 99vw;
-     max-height: 86vh;
+      max-width: 100vh;
+     max-height: 100vh;
       
     }
     .banner{
@@ -1501,8 +1503,8 @@ z-index: 20;
   transition:border-radius 2s;
   background-color:#282828;
     position: absolute;
-    max-width: 99vw;
-   max-height: 60vh;
+    max-width: 50vh;
+   max-height: 50vh;
     
   }
 
@@ -1572,8 +1574,8 @@ z-index: 20;
     transition:border-radius 2s;
     background-color:#282828;
       position: absolute;
-      max-width: 99vw;
-     max-height: 100vh;
+      max-width: 80vw;
+     max-height: 80vw;
       
     }
   .navbarContainer {

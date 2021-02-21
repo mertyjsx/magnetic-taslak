@@ -7,8 +7,20 @@ import Icon from "../components/iconLayout";
 import FeatureText from "../components/FeatureText";
 import Scale from "../components/ScaleText";
 import { Fade } from "react-reveal";
+import Lottie from 'react-lottie';
+import animationData from '../lottie/wave2.json';
 let fadeNumber = 0;
 let radius = false;
+
+const defaultOptions = {
+  loop: true,
+  autoplay: true,
+  animationData: animationData,
+  rendererSettings: {
+    preserveAspectRatio: "xMidYMid slice"
+  }
+};
+
 export default function Home() {
   const [scroll, setScroll] = React.useState(0);
   const [width, setWidth] = React.useState(1400);
@@ -40,14 +52,14 @@ export default function Home() {
     return window.addEventListener("scroll", handleScroll, { passive: true });
   }, []);
 
-  if (width > 1000) {
+  if (width < 1000) {
     if (scroll > width / 2) {
       radius = true;
     } else {
       radius = false;
     }
   } else {
-    if (scroll > (width * 3) / 4) {
+    if (scroll > (width /3)) {
       radius = true;
     } else {
       radius = false;
@@ -65,7 +77,7 @@ export default function Home() {
     fadeNumber = 2;
   }
 
-  console.log(fadeNumber);
+  console.log(radius);
   console.log(width, scroll);
 
   return (
@@ -85,13 +97,20 @@ export default function Home() {
           </div>
           <div className="stickyContainer ">
             <div className="relative fullw lg:pt-4  center stickLine  ">
+        <Lottie 
+	    options={defaultOptions}
+        height={"90vh"}
+        width={"90vw"}
+       style={{position:"absolute",transition:"opacity 3s",opacity:radius?1:0.1}}
+       
+      />
               <div
                 className="magneticBackground"
                 style={{
                   height: scroll,
                   width: scroll,
 
-                  borderRadius: radius ? "0%" : "100%",
+                  borderRadius: "100%",
                 }}
               >
                 {" "}
@@ -107,22 +126,7 @@ export default function Home() {
                       Rahatlık
                     </h2>
                     <h2 className="magneticFeatureText rotateLeft">Stres</h2>
-                    <Icon
-                      icon="/magnet.png"
-                      style={{ bottom: "0%", left: "0%" }}
-                    ></Icon>
-                    <Icon
-                      icon="/atom3.png"
-                      style={{ bottom: "0%", right: "0%" }}
-                    ></Icon>
-                    <Icon
-                      icon="/heart.png"
-                      style={{ top: "0%", left: "0%" }}
-                    ></Icon>
-                    <Icon
-                      icon="/energy.png"
-                      style={{ top: "0%", right: "0%" }}
-                    ></Icon>
+                   
 
                     <div className="magneticCircle">
                       <video autoPlay loop muted className="circleR">
