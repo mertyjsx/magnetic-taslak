@@ -1497,10 +1497,10 @@
     }
   
     h1 {
-      font-size: 9rem;
+      font-size: 7rem;
       font-weight: 800;
       word-spacing: 1;
-      letter-spacing: -0.07em !important;
+     
     }
   
    
@@ -1626,7 +1626,7 @@
       top: 0px;
     }
     h1 {
-      font-size: 9rem;
+      font-size: 7rem;
       font-weight: 800;
       word-spacing: 1;
       letter-spacing: -0.07em !important;
@@ -1877,10 +1877,8 @@
   
   
     h1 {
-      font-size: 8rem;
-      font-weight: 800;
-      word-spacing: 1;
-      letter-spacing: -0.07em !important;
+      font-size: 6rem;
+     
     }
   
     .video {
