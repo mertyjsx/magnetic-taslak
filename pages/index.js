@@ -112,7 +112,7 @@ export default function Home() {
       <main className={styles.main}>
         <Link href="iletisim"><div className="but il">İletişim</div></Link>
 
-        <Manyetik></Manyetik>
+      
 
         <Fade duration={2000}>
           <h2 className="text-center wh text-6xl font-bold mb-32 shadow-lg"></h2>
