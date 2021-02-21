@@ -1,15 +1,10 @@
 import React, { useEffect } from "react";
-import Head from "next/head";
+
 import styles from "../styles/Home.module.css";
-import Navbar from "../components/navbar";
-import Kumtası from "../components/kumtası";
-import Icon from "../components/iconLayout";
-import FeatureText from "../components/FeatureText";
-import Scale from "../components/ScaleText";
-import { Fade } from "react-reveal";
+
 import Lottie from 'react-lottie';
 import animationData from '../lottie/wave2.json';
-let fadeNumber = 0;
+
 let radius = false;
 
 const defaultOptions = {
@@ -24,21 +19,14 @@ const defaultOptions = {
 export default function Home() {
   const [scroll, setScroll] = React.useState(0);
   const [width, setWidth] = React.useState(1400);
-  const [height, setHeight] = React.useState(800);
-  const [responsive, setResponsive] = React.useState(0);
-  const [content, setContent] = React.useState([
-    { left: "Stres", content: "Terapi" },
-    { left: "Bağışıklık", content: "Rahatlama" },
-    { left: "Biyoenerji", content: "" },
-    { left: "Terapi", content: "" },
-  ]);
-  const [props_scroll, setPropsScroll] = React.useState(0);
 
-  const [renderText, setrenderText] = React.useState(false);
+ 
+
+
   const handleScroll = () => {
     const position = window.pageYOffset;
-    setPropsScroll(position);
-    console.log(position < window.innerWidth);
+   
+   
     if (position > 50 && position < window.innerWidth + 200)
       setScroll(position);
   };
@@ -47,7 +35,7 @@ export default function Home() {
     window.addEventListener("scroll", handleScroll, { passive: true });
 
     setWidth(window.innerWidth);
-    setHeight(window.innerHeight);
+
 
     return window.addEventListener("scroll", handleScroll, { passive: true });
   }, []);
@@ -66,19 +54,7 @@ export default function Home() {
     }
   }
 
-  if (scroll < 1060) {
-    fadeNumber = 0;
-  }
 
-  if (scroll > 1060 && scroll < 1200) {
-    fadeNumber = 1;
-  }
-  if (scroll > 1200 && scroll < 1350) {
-    fadeNumber = 2;
-  }
-
-  console.log(radius);
-  console.log(width, scroll);
 
   return (
     <div className={styles.container}>

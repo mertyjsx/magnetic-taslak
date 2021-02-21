@@ -10,18 +10,18 @@ export default function SampleProduct() {
   }, []);
   return (
     <div className="productContainer">
-      <div className="productText  p-10">
+      <div className="productText  p-10" style={{maxWidth:"50%"}}>
         <img
         width="100%"
         height="100%"
-          src={`/magnehole.jpg`}
+          src={`/magnehole${width<600?"_mobile":""}.jpg`}
           alt="manyetik kum kolye"
           className="shadow-lg p-10 productTextImage"
         ></img>
         <img
         width="100%"
         height="100%"
-          src={`/new-tr.webp`}
+          src={`/new-tr${width<600?"_mobile.jpg":".webp"}`}
          
           alt={`/new-tr.jpg`}
           className="shadow-lg p-10 productTextImage"
