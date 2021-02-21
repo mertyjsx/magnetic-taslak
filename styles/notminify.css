@@ -7,6 +7,111 @@
   
     align-items: center;
   }
+  *, ::after, ::before {
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: #e2e8f0;
+  }
+  blockquote, dd, dl, figure, h1, h2, h3, h4, h5, h6, hr, p, pre {
+    margin: 0;
+  }
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-6xl {
+    font-size: 4rem;
+  }
+  .font-bold {
+    font-weight: 700;
+  }
+  .mt-20 {
+    margin-top: 5rem;
+  }
+  .flex-col {
+    flex-direction: column;
+  }
+  .relative {
+    position: relative;
+  }
+  
+  .mt-4 {
+    margin-top: 1rem;
+  }
+  
+  .font-normal {
+    font-weight: 400;
+  }
+  
+  audio, canvas, embed, iframe, img, object, svg, video {
+    display: block;
+    vertical-align: middle;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: inherit;
+  }
+  img, video {
+    max-width: 100%;
+    height: auto;
+  }
+  .text-6xl {
+    font-size: 4rem;
+  }
+  .font-bold {
+    font-weight: 700;
+  }
+  .text-3xl {
+    font-size: 1.875rem;
+  }
+  .shadow-lg {
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 5%);
+  }
+  .text-black {
+    --text-opacity: 1;
+    color: #000;
+    color: rgba(0,0,0,var(--text-opacity));
+  }
+  .p-10 {
+    padding: 2.5rem;
+  }
+  .text-6xl {
+    font-size: 4rem;
+  }
+  
+  .text-4xl {
+    font-size: 2.25rem;
+  }
+  
+  .mb-32 {
+    margin-bottom: 8rem;
+  }
+  .text-5xl {
+    font-size: 3rem;
+  }
+  .justify-center {
+    justify-content: center;
+  }
+  @media (min-width: 1024px){
+    .lg\:text-6xl {
+      font-size: 4rem;
+  }
+  .lg\:pt-4 {
+    padding-top: 1rem;
+  }
+  }
+  
+  @media (min-width: 768px){
+    .md\:text-4xl {
+      font-size: 3rem;
+  }
+  }
+  
+  
+  
+  
+  
   
   
   
@@ -1001,6 +1106,21 @@
     color: white;
   }
   
+  .flex{
+    display: flex;
+  }
+  .flex-row{
+    flex-direction: row;
+  }
+  .items-center{
+    align-items: center;
+  }
+  .ml-6{
+    margin-left: 1.5rem;
+  }
+  
+  
+  
   .tt{
   
     font-size: 6rem;
@@ -1012,16 +1132,16 @@
     font-size: 3.5rem;
   }
   .contentful{
-text-align: center;
-margin-top: 2rem;
-font-weight: 400;
-padding: 2rem;
-color: "#333232"
-
+  text-align: center;
+  margin-top: 2rem;
+  font-weight: 400;
+  padding: 2rem;
+  color: "#333232"
+  
   }
-
-
-
+  
+  
+  
   .column-center{
     flex-direction: column;
     justify-content: center;

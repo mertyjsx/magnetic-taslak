@@ -59,7 +59,7 @@ function Cards() {
       
         
       </Head>
-      <div className="banner fullw">
+      <div className="banner fullw relative">
 
 <img src="/banner.png" className="fullw bannerImage"></img>
 <div className="bannerContent">
