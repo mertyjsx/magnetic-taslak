@@ -17,7 +17,7 @@ const Line = ({ children, href }) => {
       <div className=" flex flex-row items-center justify-center fullw mt30">
         <Fade bottom>
             <div onClick={(e)=>handleClick(e,"/iletisim")}  className="card flex-column center justify-center">
-          <img src="/lala.png" alt="magnetic sand" className="logow "></img>
+          <img src="/lala.png" alt="magnetic sand" width="50%" className="logow "></img>
           <h2 className="ml20">İletişim</h2>
 
           </div>
@@ -28,7 +28,7 @@ const Line = ({ children, href }) => {
         <h2>Oxford </h2>
         <p className="text-center">Timus bezinin faydalarıyla alakalı araştırmalar</p>
         </div>
-          <img src="/oxford.png" alt="magnetic sand" className="logow "></img>
+          <img src="/oxford.png" alt="magnetic sand"  width="50%" className="logow "></img>
           
           </div>
         </Fade>
