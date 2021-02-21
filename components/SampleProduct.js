@@ -12,11 +12,15 @@ export default function SampleProduct() {
     <div className="productContainer">
       <div className="productText  p-10">
         <img
+        width="100%"
+        height="100%"
           src={`/magnehole.jpg`}
           alt="manyetik kum kolye"
           className="shadow-lg p-10 productTextImage"
         ></img>
         <img
+        width="100%"
+        height="100%"
           src={`/new-tr.webp`}
          
           alt={`/new-tr.jpg`}
@@ -24,6 +28,8 @@ export default function SampleProduct() {
         ></img>
       </div>
       <img
+      width="100%"
+      height="100%"
         src="/pure.jpg"
         src={`/pure${width<600?"_mobile":""}.jpg`}
         alt="manyetik kum kolye"
