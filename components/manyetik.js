@@ -61,9 +61,9 @@ const defaultOptions = {
       <div className="fullw  mt-20">
         <div className="flex  xl:flex-column center  flex-col  fullw">
           <div className="relative sss fullw center column ">
-            <h1  style={{fontWeight:700,textAlign:"center",letterSpacing:"-0.07em"}}>
+            <div  style={{fontWeight:700,textAlign:"center",letterSpacing:"-0.07em"}}>
             Ünye Manyetik Kumu
-            </h1>
+            </div>
             <h3
               className="text-start text-3rem md:text-xl lg:text-2xl text-white  font-normal mt-4"
               style={{ color: "#8d8d8d", zIndex: 99 }}
