@@ -103,35 +103,16 @@ export default function Home() {
         />
       </Head>
       <main className={styles.main}>
-        <Link href="iletisim"><div className="but il">İletişim</div></Link>
+       
 
         <Manyetik></Manyetik>
-
-        <Fade duration={2000}>
-          <h2 className="text-center wh text-6xl font-bold mb-32 shadow-lg"></h2>
-        </Fade>
-        <h3 className="text-center text-6xl font-bold mt220 ">
-          Kolye haline getirdik
-        </h3>
-        <h4
-          className="shadow-lg text-3xl contentful responsiveWidth"
-         
-        >
-          Ünye sahillerinde bulunan, içinde 20’ye yakın mineral olduğu tespit
-          edilen, vücudun stresten arınmasına yardımcı olan manyetik siyah
-          kumdan; özel işlemlere tabi tutularak, el işçiliği ile üretilmiştir.
-          <br></br>
-          <span class="text-3xl font-bold text-black">
-            Siyah Manyetik kumu tasarımla buluşturduk
-          </span>
-        </h4>
 
         <SampleProduct></SampleProduct>
         <ButtonContainer></ButtonContainer>
         <Thymus></Thymus>
 
         <Level2></Level2>
-    
+   
       </main>
 
       <footer className={styles.footer}>
