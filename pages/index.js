@@ -3,9 +3,7 @@ import React, { useEffect, useState } from "react";
 
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-import Link from "next/link";
 
-import dynamic from "next/dynamic";
  import Manyetik from '../components/manyetik' 
 import Thymus from '../components/thymus'
 import Level2 from '../components/level3'
@@ -107,12 +105,31 @@ export default function Home() {
 
         <Manyetik></Manyetik>
 
+        <Fade duration={2000}>
+          <h2 className="text-center wh text-6xl font-bold mb-32 shadow-lg"></h2>
+        </Fade>
+        <h3 className="text-center text-6xl font-bold mt220 ">
+          Kolye haline getirdik
+        </h3>
+        <h4
+          className="shadow-lg text-3xl contentful responsiveWidth"
+         
+        >
+          Ünye sahillerinde bulunan, içinde 20’ye yakın mineral olduğu tespit
+          edilen, vücudun stresten arınmasına yardımcı olan manyetik siyah
+          kumdan; özel işlemlere tabi tutularak, el işçiliği ile üretilmiştir.
+          <br></br>
+          <span class="text-3xl font-bold text-black">
+            Siyah Manyetik kumu tasarımla buluşturduk
+          </span>
+        </h4>
+
         <SampleProduct></SampleProduct>
         <ButtonContainer></ButtonContainer>
         <Thymus></Thymus>
 
         <Level2></Level2>
-   
+        <Level3></Level3>
       </main>
 
       <footer className={styles.footer}>

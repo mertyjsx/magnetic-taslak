@@ -21,11 +21,13 @@
   }
   
   h1{
-    font-size: 7rem;
+    font-size: 5rem;
     font-weight: 700;
     text-align: center;
-    letter-spacing:-0.07rem;
+    letter-spacing:-0.10rem;
    margin: 0px;
+  
+   
   }
   
   .text-6xl {
@@ -35,7 +37,7 @@
     font-weight: 700;
   }
   .mt-20 {
-    margin-top: 5rem;
+    margin-top: 4rem;
   }
   .flex-col {
     flex-direction: column;
@@ -1512,7 +1514,8 @@
    
    
     .kolyeContainer {
-     
+     width: 80%;
+     height: 400px;
       max-width: 97vw;
       min-width: 450px;
       display: flex;
@@ -1634,7 +1637,8 @@
     }
   
     .kolyeContainer {
-    
+    width: 80%;
+    height: 400px;
       max-width: 97vw;
       min-width: 800px;
       display: flex;
@@ -1778,9 +1782,7 @@
     font-size: 2rem;
   }
   @media only screen and (max-width: 600px) {
-    h1{
-      font-size: 5rem;
-    }
+    
     .urun__item__text {
       font-size: 14px !important;
     }
@@ -1927,7 +1929,9 @@
     }
   
     .kolyeContainer {
-     
+      margin-top: 40px;
+     width: 90%;
+     height: 300px;
       max-width: 97vw;
       display: flex;
       justify-content: center;

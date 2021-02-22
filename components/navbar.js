@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
+import Image from "next/image"
 
 const Navbar = () => {
   const [w, sw] = useState(1000);
@@ -12,11 +13,13 @@ const Navbar = () => {
     <div className="navbarContainer ">
       <div className="leftLink needHover">
         <Link href="/">
-          <img
+          <Image
             src="/lala.png"
             alt="magnetic sand"
-            style={{ width: 70, height: 62 }}
-          ></img>
+            width="70"
+            height="60"
+        
+          ></Image>
         </Link>
       </div>
 

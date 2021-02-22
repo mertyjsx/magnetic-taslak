@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import Fade from "react-reveal/Fade";
 import config from "react-reveal/globals";
+import Image from "next/image"
 
 config({ ssrFadeout: true });
 export default function Home() {
@@ -11,7 +12,7 @@ export default function Home() {
 
 
   return (
-    <div className="kolyeContainer items-center relative full2 mt60 mb30">
+    <div className="kolyeContainer items-center relative full2 mt60 mb30 fullw">
       <div className="yazı ">
         <h2 className="üst text-5xl md:text-4xl lg:text-6xl">
           Manyetik <br></br> Siyah Kum{" "}
@@ -30,19 +31,14 @@ export default function Home() {
 
         <h6 className="alt text-4xl md:text-3xl lg:text-4xl">Bezi.</h6>
       </div>
-
-      <img
-        className="kolye"
-        style={{
-          width: width > 600 ? "80%" : "100%",
-          maxWidth: "96%",
-          minWidth: "50%",
-          height: 400,
-          objectFit: "cover",
-        }}
+<div  style={{height:"100%",width:"100%",position:"relative"}}>
+      <Image
+  layout="fill"
+        objectFit="cover"
         alt="magnetic pendant"
         src="/t.jpg"
-      ></img>
+      ></Image>
+      </div>
     </div>
   );
 }
