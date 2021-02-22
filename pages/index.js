@@ -129,7 +129,7 @@ export default function Home() {
         <Thymus></Thymus>
 
         <Level2></Level2>
-       
+        <Level3></Level3>
       </main>
 
       <footer className={styles.footer}>

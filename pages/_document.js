@@ -48,7 +48,7 @@ class MyDocument extends Document {
     <meta property="og:type" content="website" />
    
   
-   
+    <link rel="preload" as="image" href="/lala.png" type="image/png" />
 <link rel="preload" as="video" href="/magneticVideo.mp4" type="video/mp4" />
 
   

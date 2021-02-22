@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-
+import Image from "next/image"
 export default function SampleProduct() {
   const [width, setWidth] = useState(0);
   useEffect(() => {
@@ -18,6 +18,7 @@ export default function SampleProduct() {
           alt="manyetik kum kolye"
           className="shadow-lg p-10 productTextImage"
         ></img>
+        
         <img
         width="100%"
         height="100%"
