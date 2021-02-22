@@ -53,27 +53,22 @@ function CardItem(props) {
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: `
-                  "@context": "https://schema.org/",
-      "@type": "Product",
-      "name": "Magnehole stres taşı",
-      "image": [
-        "https://unyemanyetik.com/pure.jpg",
-       
-       ],
-      "description": "Ünye Manyetik kumundan yapılan sanatsal takı , Stres kolyesi , Terapi kolyesi",
-  
-       
-      },
-    
-      "offers": {
-        "@type": "Offer",
-        "url": "https://unyemanyetik.com/klasik",
-        "priceCurrency": "TRY",
-        "price": "75",
-       
-        "availability": "https://schema.org/InStock"
-      }
+            __html: `{
+              "@context": "https://schema.org/",
+               "@type": "Product",
+               "name": "Ünye Manyetik Kumtaşı",
+               "image":["https://unyemanyetik.com/pure.jpg"],
+               "description": "Ünye Manyetik kumundan yapılan sanatsal takı , Stres kolyesi , Terapi kolyesi",
+                   "offers": {
+                 "@type": "Offer",
+                 "url": "https://unyemanyetik.com/klasik",
+                 "priceCurrency": "TRY",
+                 "price": "75",
+                
+                 "availability": "https://schema.org/InStock"
+         }
+         
+         }
                   `,
           }}
         />

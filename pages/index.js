@@ -1,13 +1,12 @@
 import React, { useEffect, useState } from "react";
 
-
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 
- import Manyetik from '../components/manyetik' 
-import Thymus from '../components/thymus'
-import Level2 from '../components/level3'
-import Level3 from '../components/level2'
+import Manyetik from "../components/manyetik";
+import Thymus from "../components/thymus";
+import Level2 from "../components/level3";
+import Level3 from "../components/level2";
 import ButtonContainer from "../components/buttonContainer";
 import SampleProduct from "../components/SampleProduct";
 
@@ -17,9 +16,6 @@ config({ ssrFadeout: true });
 import { Fade } from "react-reveal";
 
 export default function Home() {
-
-
-
   return (
     <div className={""}>
       <Head>
@@ -75,34 +71,27 @@ export default function Home() {
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: `
-                  "@context": "https://schema.org/",
-      "@type": "Product",
-      "name": "Ünye Manyetik Kumtaşı",
-      "image": [
-        "https://unyemanyetik.com/pure.jpg",
-       
-       ],
-      "description": "Ünye Manyetik kumundan yapılan sanatsal takı , Stres kolyesi , Terapi kolyesi",
-  
-       
-      },
-    
-      "offers": {
-        "@type": "Offer",
-        "url": "https://unyemanyetik.com/klasik",
-        "priceCurrency": "TRY",
-        "price": "75",
-       
-        "availability": "https://schema.org/InStock"
-      }
+            __html: `{
+              "@context": "https://schema.org/",
+               "@type": "Product",
+               "name": "Ünye Manyetik Kumtaşı",
+               "image":["https://unyemanyetik.com/pure.jpg"],
+               "description": "Ünye Manyetik kumundan yapılan sanatsal takı , Stres kolyesi , Terapi kolyesi",
+                   "offers": {
+                 "@type": "Offer",
+                 "url": "https://unyemanyetik.com/klasik",
+                 "priceCurrency": "TRY",
+                 "price": "75",
+                
+                 "availability": "https://schema.org/InStock"
+         }
+         
+         }
                   `,
           }}
         />
       </Head>
       <main className={styles.main}>
-       
-
         <Manyetik></Manyetik>
 
         <Fade duration={2000}>
@@ -111,10 +100,7 @@ export default function Home() {
         <h3 className="text-center text-6xl font-bold mt220 ">
           Kolye haline getirdik
         </h3>
-        <h4
-          className="shadow-lg text-3xl contentful responsiveWidth"
-         
-        >
+        <h4 className="shadow-lg text-3xl contentful responsiveWidth">
           Ünye sahillerinde bulunan, içinde 20’ye yakın mineral olduğu tespit
           edilen, vücudun stresten arınmasına yardımcı olan manyetik siyah
           kumdan; özel işlemlere tabi tutularak, el işçiliği ile üretilmiştir.
@@ -150,7 +136,7 @@ export default function Home() {
         >
           instagram
         </a>
-       
+
         <a
           href="https://www.twitter.com/"
           target="_blank"
