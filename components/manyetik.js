@@ -61,8 +61,8 @@ const defaultOptions = {
       <div className="fullw  mt-20">
         <div className="flex  xl:flex-column center  flex-col  fullw">
           <div className="relative sss fullw center column ">
-            <h1  style={{fontWeight:700,textAlign:"center",letterSpacing:"-0.07em"}}>
-              <span className="den">Ünye</span> Manyetik Kumu
+            <h1 className="BigTitle" style={{fontWeight:700,textAlign:"center",letterSpacing:"-0.07em"}}>
+            Ünye Manyetik Kumu
             </h1>
             <h3
               className="text-start text-3rem md:text-xl lg:text-2xl text-white  font-normal mt-4"
@@ -94,14 +94,14 @@ const defaultOptions = {
               <div className="textContainer">
                 <div className="stickyBackground">
                   <div className="magneticDotCircle">
-                    <h2 className="magneticFeatureText rotateTop">
+                    <h2 className="absolute rotateTop">
                       Bağışıklık
                     </h2>
-                    <h2 className="magneticFeatureText rotateRight">Terapi</h2>
-                    <h2 className="magneticFeatureText rotateBottom">
+                    <h2 className="absolute rotateRight">Terapi</h2>
+                    <h2 className="absolute rotateBottom">
                       Rahatlık
                     </h2>
-                    <h2 className="magneticFeatureText rotateLeft">Stres</h2>
+                    <h2 className="absolute rotateLeft">Stres</h2>
                    
 
                     <div className="magneticCircle">
