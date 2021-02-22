@@ -1945,6 +1945,8 @@
   
   
   .stickLine{
+    position: -webkit-sticky;
+    position: sticky;
     top: 55vh;
     margin-top: 100px;
   }
