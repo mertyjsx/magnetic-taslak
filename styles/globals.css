@@ -13,20 +13,14 @@
   border-style: solid;
   border-color: #e2e8f0;
 }
-blockquote, dd, dl, figure, h1, h2, h3, h4, h5, h6, hr, p, pre {
+blockquote, dd, dl, figure, h2, h3, h4, h5, h6, hr, p, pre {
   margin: 0;
 }
 .text-center {
   text-align: center;
 }
 
-h1{
-  font-size: 7rem;
-  font-weight: 700;
-  text-align: center;
-  letter-spacing:-0.07rem;
- 
-}
+
 
 .text-6xl {
   font-size: 4rem;
@@ -522,15 +516,6 @@ a {
   background-image: linear-gradient(90deg, #fff700, #fd5e00);
 }
 
-.details h1 {
-  color: #ca6a9a;
-  font-size: 18px;
-  line-height: 18px;
-  font-weight: 600;
-  margin: 0;
-  padding: 0;
-  max-width: 50px;
-}
 
 .details p {
   color: #777777;
@@ -1787,9 +1772,7 @@ color: "#333232"
   font-size: 2rem;
 }
 @media only screen and (max-width: 600px) {
-  h1{
-    font-size: 6rem;
-  }
+
   .urun__item__text {
     font-size: 14px !important;
   }
