@@ -61,7 +61,15 @@ const defaultOptions = {
       <div className="fullw  mt-20">
         <div className="flex  xl:flex-column center  flex-col  fullw">
           <div className="relative sss fullw center column ">
-         
+            <h1 >
+            Ünye Manyetik Kumu
+            </h1>
+            <h3
+             
+              style={{ color: "#8d8d8d", zIndex: 99 ,fontSize:"3.5rem",marginTop:"1rem"}}
+            >
+              Sanatsal takılar
+            </h3>
           </div>
           <div className="stickyContainer ">
             <div className="relative fullw lg:pt-4  center stickLine  ">
