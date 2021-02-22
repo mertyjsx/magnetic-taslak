@@ -22,6 +22,10 @@ blockquote, dd, dl, figure, h1, h2, h3, h4, h5, h6, hr, p, pre {
 
 h1{
   font-size: 7rem;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing:-0.07rem;
+ 
 }
 
 .text-6xl {
