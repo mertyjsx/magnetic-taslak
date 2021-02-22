@@ -61,7 +61,7 @@ const defaultOptions = {
       <div className="fullw  mt-20">
         <div className="flex  xl:flex-column center  flex-col  fullw">
           <div className="relative sss fullw center column ">
-            <h1  >
+            <h1 >
             Ünye Manyetik Kumu
             </h1>
             <h3

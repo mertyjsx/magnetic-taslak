@@ -20,7 +20,13 @@ blockquote, dd, dl, figure, h2, h3, h4, h5, h6, hr, p, pre {
   text-align: center;
 }
 
-
+h1{
+  font-size: 7rem;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing:-0.07rem;
+ 
+}
 
 .text-6xl {
   font-size: 4rem;
@@ -1772,7 +1778,9 @@ color: "#333232"
   font-size: 2rem;
 }
 @media only screen and (max-width: 600px) {
-
+  h1{
+    font-size: 6rem;
+  }
   .urun__item__text {
     font-size: 14px !important;
   }
