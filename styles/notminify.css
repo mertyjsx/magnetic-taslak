@@ -1782,6 +1782,9 @@
     font-size: 2rem;
   }
   @media only screen and (max-width: 600px) {
+      .hidden{
+          display: none;
+      }
     
     .urun__item__text {
       font-size: 14px !important;
@@ -1910,6 +1913,7 @@
   
       font-weight: 600;
     }
+
     .yazı {
       background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
       position: absolute;

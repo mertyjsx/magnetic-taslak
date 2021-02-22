@@ -16,8 +16,8 @@ const Navbar = () => {
           <Image
             src="/lala.png"
             alt="magnetic sand"
-            width="70"
-            height="60"
+            width="70px"
+            height="60px"
         
           ></Image>
         </Link>
