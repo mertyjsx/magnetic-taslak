@@ -1,7 +1,13 @@
 import React from 'react'
 import { Fade } from "react-reveal";
-
+import { useRouter } from 'next/router'
 export default function checkout() {
+  const router = useRouter()
+
+    const handleClick = (e,href) => {
+        e.preventDefault()
+        router.push(href)
+      }
     return (
         <div className=" flex flex-row items-center justify-center fullw mt30">
           <Fade bottom>
@@ -20,7 +26,7 @@ export default function checkout() {
               onClick={(e) =>
                 handleClick(
                   e,
-                  "https://www.ox.ac.uk/news/2016-08-22-study-suggests-routes-improved-immunity-older-people"
+                  "https://www.trendyol.com/unye-manyetik-kumtasi/unye-manyetik-kumu-kolye-p-85861149?boutiqueId=61&merchantId=346017"
                 )
               }
               className="card  center justify-center"
