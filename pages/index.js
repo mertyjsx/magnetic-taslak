@@ -19,12 +19,7 @@ export default function Home() {
   return (
     <div className={""}>
       <Head>
-        <title>Stress relief Lodestone Magnetic sand </title>
-        <meta
-          name="description"
-          content="Anxiety necklace ,buy anxiety stress relief sand necklace .Lodestone gemstone list  , magnetite uses, sand of Magnetic
-      "
-        />
+     
 
         <meta property="og:title" content="Ünye Manyetik Kumtaşı Klasik" />
         <meta property="og:type" content="product" />
@@ -68,28 +63,8 @@ export default function Home() {
           content="Ünye Manyetik kumundan yapılan sanatsal takı , Stres kolyesi , Terapi kolyesi , El yapımı doğal taş kolye , Quartz "
         ></meta>
 
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: `{
-              "@context": "https://schema.org/",
-               "@type": "Product",
-               "name": "Ünye Manyetik Kumtaşı",
-               "image":["https://unyemanyetik.com/pure.jpg"],
-               "description": "Ünye Manyetik kumundan yapılan sanatsal takı , Stres kolyesi , Terapi kolyesi",
-                   "offers": {
-                 "@type": "Offer",
-                 "url": "https://unyemanyetik.com/klasik",
-                 "priceCurrency": "TRY",
-                 "price": "75",
-                
-                 "availability": "https://schema.org/InStock"
-         }
-         
-         }
-                  `,
-          }}
-        />
+      
+      
       </Head>
       <main className={styles.main}>
         <Manyetik></Manyetik>
