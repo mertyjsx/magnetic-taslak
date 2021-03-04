@@ -1,75 +1,12 @@
 import React from "react";
 import Link from "next/link";
 import Checkout from "../components/checkout";
-import Head from "next/head";
+import Head from "../components/HeaderComp";
 function CardItem(props) {
   return (
-    <div className="fullw  cards__item_ responsiveProduct">
-      <Head>
-        <title>Ünye Manyetik Kumu | Sanatsal El yapımı kolye</title>
-        <meta
-          name="title"
-          content="Ünye Manyetik Kumu | Sanatsal El yapımı kolye"
-        ></meta>
-        <meta
-          name="description"
-          content="Ünye Manyetik kumundan yapılan sanatsal takı , Stres kolyesi , Terapi kolyesi , El yapımı doğal taş kolye , Quartz "
-        ></meta>
+    <main className="fullw  cards__item_ responsiveProduct">
+      <Head></Head>
 
-        <meta property="og:title" content="Ünye Manyetik Kumtaşı Klasik" />
-        <meta property="og:type" content="product" />
-        <meta property="og:url" content="https://unyemanyetik.com/klasik" />
-        <meta
-          property="og:image"
-          content="https://unyemanyetik.com/thumbnail.jpg"
-        />
-        <meta
-          property="og:description"
-          content="Ünye Manyetik kumundan yapılan sanatsal takı , Stres kolyesi , Terapi kolyesi"
-        />
-
-        <meta property="product:price:amount" content="75" />
-        <meta property="product:price:currency" content="TRY" />
-
-        <meta property="twitter:card" content="summary_large_image"></meta>
-        <meta name="twitter:title" content="Ünye Manyetik Kumtaşı"></meta>
-
-        <meta
-          name="twitter:description"
-          content="Stres avcısı manyetik kumdan yapılan sanatsal kolye"
-        ></meta>
-
-        <meta
-          name="twitter:image"
-          content="https://unyemanyetik.com/thumbnail.jpg"
-        ></meta>
-
-        <meta name="twitter:site" content="@magneticsand__"></meta>
-
-        <meta name="twitter:creator" content="@magneticsand__"></meta>
-
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: `{
-              "@context": "https://schema.org/",
-               "@type": "Product",
-               "name": "Ünye Manyetik Kumtaşı",
-               "image":["https://unyemanyetik.com/pure.jpg"],
-               "description": "Ünye Manyetik kumundan yapılan sanatsal takı , Stres kolyesi , Terapi kolyesi",
-                   "offers": {
-                 "@type": "Offer",
-                 "url": "https://unyemanyetik.com/klasik",
-                 "priceCurrency": "TRY",
-                 "price": "75",
-                
-                 "availability": "https://schema.org/InStock"
-         }
-         
-         } `,
-          }}
-        />
-      </Head>
       <figure className="cards__item__pic-wrap" data-category={"new"}>
         <img
           src={"/pure.jpg"}
@@ -79,12 +16,14 @@ function CardItem(props) {
         />
       </figure>
       <div className="urun_acıklama cards__item__link ">
-        <h1 className="urun_text">Stres avcısı Klasik model</h1>
-        <h2>Ünye Manyetik Kumtaşı</h2>
+        <header>
+          <h1 className="urun_text">Stres avcısı Klasik model</h1>
+        </header>
+
+        <h2 className="text-center">Ünye Manyetik Kumtaşı</h2>
 
         <h3 className="mt30">stres rahatlama terapi </h3>
 
-        <h4></h4>
         <p className="urun__item__text mt30">
           ünye sahillerinde bulunan, içinde 20’ye yakın mineral olduğu tespit
           edilen, vücudun stresten arınmasına yardımcı olan manyetik siyah
@@ -95,10 +34,10 @@ function CardItem(props) {
           kullanıldığında timus bezini harekete geçirir, Timus bezi stres ve
           bağışıklık sistemimizin merkezidir.
         </p>
-        <h4 className="mt30">Ödeme seçenekleri</h4>
+        <div className="mt30">Ödeme seçenekleri</div>
         <Checkout url="https://www.trendyol.com/unye-manyetik-kumtasi/unye-manyetik-kumu-kolye-p-85861149?merchantId=346017"></Checkout>
       </div>
-    </div>
+    </main>
   );
 }
 

@@ -54,7 +54,7 @@ class MyDocument extends Document {
   
          
   
-      </Head>,
+      </Head>
         <body>
           <Main />
           <NextScript />
