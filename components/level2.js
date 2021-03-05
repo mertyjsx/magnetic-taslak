@@ -1,11 +1,10 @@
 import React from "react";
 import { useRouter } from "next/router";
 
-import config from "react-reveal/globals";
-import { Fade } from "react-reveal";
+
 import Image from "next/image";
 import Link from "next/link";
-config({ ssrFadeout: true });
+
 
 const Line = ({ children, href }) => {
   const router = useRouter();

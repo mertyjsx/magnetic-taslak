@@ -29,6 +29,15 @@
   
    
   }
+  .cards__item__pic-wrap {
+    position: sticky;
+    width: 100%;
+   
+    height: 95vh;
+    overflow: hidden;
+    top: 20px;
+
+  }
   
   .text-6xl {
     font-size: 4rem;
@@ -840,7 +849,7 @@
     width: 70%;
   }
   .responsiveProduct{
-    padding: 10%;
+    padding: 6%;
   }
   .box{
     padding: 50px;
@@ -959,6 +968,7 @@
     flex-direction: column;
     justify-content: center;
     text-align: start;
+    background-color: white;
   }
   
   
@@ -1969,7 +1979,10 @@
   .responsiveProduct{
     padding: 5%;
     flex-direction: column;
-    margin-top: 30px;
+    margin-top: 35px;
+  }
+  .cards__item__pic-wrap{
+    height: 40vh ;
   }
   
   .icon img{
@@ -2054,12 +2067,7 @@
     text-decoration: none;
   }
   
-  .cards__item__pic-wrap {
-    position: relative;
-    width: 100%;
-    padding-top: 67%;
-    overflow: hidden;
-  }
+ 
   
   .fade-img {
     animation-name: fade-img;
@@ -2119,7 +2127,7 @@
   
   .urun__item__text {
     color: #252e48;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 24px;
     
   }
@@ -2131,7 +2139,7 @@
   }
   .urun_acıklama > h3{
     
-    color: red;
+    font-weight: 600;
   
   
     
@@ -2224,4 +2232,29 @@
       flex-direction: column;
       justify-content: center;
       height: 300px;
+  }
+
+ 
+  .red{
+    color: red !important;
+    font-size: 14px !important;
+  }
+  .products_figure{
+    height: 35vh;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .products_figure::after {
+    content: attr(data-category);
+    position: absolute;
+    bottom: 0;
+    margin-left: 10px;
+    padding: 6px 8px;
+    max-width: calc((100%) - 60px);
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #1f98f4;
+    box-sizing: border-box;
   }

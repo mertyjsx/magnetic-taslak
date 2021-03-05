@@ -54,7 +54,7 @@ function Home() {
       <div className="fullw  mt-20">
         <div className="flex  xl:flex-column center  flex-col  fullw">
           <header className="magnetic-sand-header  ">
-            <h1>Ünye Manyetik Kumu</h1>
+            <h1>Ünye Manyetik Kumtaşı</h1>
             <h2
               style={{
                 color: "#8d8d8d",

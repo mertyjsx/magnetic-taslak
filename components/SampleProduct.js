@@ -11,6 +11,16 @@ export default function SampleProduct() {
   return (
     <div className="productContainer">
       <div className="productText  p-10" style={{maxWidth:"50%"}}>
+      <figure> 
+        <img
+        width="100%"
+        height="100%"
+        src={`/desen${width<600?"_mobile":""}.jpg`}
+         
+          alt={`/new-tr.jpg`}
+          className="shadow-lg p-10 productTextImage"
+        ></img>
+        </figure>
         <figure>
         <img
         width="100%"
@@ -21,16 +31,7 @@ export default function SampleProduct() {
         ></img>
         
         </figure>
-        <figure> 
-        <img
-        width="100%"
-        height="100%"
-        src={`/new-tr${width<600?"_mobile":""}.webp`}
-         
-          alt={`/new-tr.jpg`}
-          className="shadow-lg p-10 productTextImage"
-        ></img>
-        </figure>
+       
       </div>
      
       <img

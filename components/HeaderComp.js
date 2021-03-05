@@ -1,7 +1,7 @@
 import React from 'react'
 import Head from "next/head";
 
-export default function HeaderComp({title,description,url,image_url,price,currency,sku}) {
+export default function HeaderComp({title,description,url,image_url,mobile_image_url,price,currency,sku}) {
     return (
         <Head>
         <title>{title}</title>

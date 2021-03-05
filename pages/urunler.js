@@ -7,10 +7,10 @@ function Cards() {
   return (
     <div className="cards">
       <Head>
-        <title>Stress relief Lodestone Magnetic sand </title>
+        <title>El yapımı kumtaşı çeşitleri  </title>
         <meta
           name="description"
-          content="Anxiety necklace ,buy anxiety stress relief sand necklace .Lodestone gemstone list  , magnetite uses, sand of Magnetic
+          content="Timus bezi nasıl aktive edilir ? Manyetik Kumtaşı çeşitleri . Kuvars taşı içeren kolyeler
       "
         />
 
@@ -26,8 +26,7 @@ function Cards() {
           content="Ünye Manyetik kumundan yapılan sanatsal takı , Stres kolyesi , Terapi kolyesi"
         />
 
-        <meta property="product:price:amount" content="75" />
-        <meta property="product:price:currency" content="TRY" />
+      
 
         <meta property="twitter:card" content="summary_large_image"></meta>
         <meta name="twitter:title" content="Ünye Manyetik Kumtaşı"></meta>
@@ -46,7 +45,7 @@ function Cards() {
 
         <meta name="twitter:creator" content="@magneticsand__"></meta>
 
-        <title>Ünye Manyetik Kumu | Sanatsal El yapımı kolye</title>
+       
         <meta
           name="title"
           content="Ünye Manyetik Kumu | Sanatsal El yapımı kolye"
@@ -63,7 +62,7 @@ function Cards() {
 
 <img src="/banner.png" className="fullw bannerImage"></img>
 <div className="bannerContent">
-<h1 className="bannerText">Ünye <br></br> Manyetik  Kumu</h1>
+<h1 className="bannerText">Ünye <br></br> Manyetik  Kumtaşı</h1>
 <h3 className="bannerText2">Sanatsal Takılar</h3>
 
 </div>
@@ -72,31 +71,34 @@ function Cards() {
       <div className="cards__container">
         <div className="cards__wrapper">
           <ul className="cards__items">
-            <CardItem
-              src={"/magnehole.jpg"}
-              text="Magnehole "
-              label="Yeni"
-              path="/magnehole"
-              available={true}
-            />
-            <CardItem
-              src={"/pure.jpg"}
-              text="Sade ünye kumtaşı"
-              label="Yeni"
-              path="/klasik"
-              style={{objectPosition: "bottom"}}
-              available={true}
-            />
-          
-          </ul>
-          <ul className="cards__items">
-            <CardItem
+          <CardItem
               src={"/mavi.jpg"}
               text="Mavi tasarım "
               label="Yeni"
               path="/mavi"
               available={true}
             />
+            <CardItem
+              src={"/pure.jpg"}
+              text="Sade ünye kumtaşı"
+              label="Yeni"
+              path="/unye-manyetik-kumtasi-klasik"
+              style={{objectPosition: "bottom"}}
+              available={true}
+            />
+          
+          </ul>
+          <ul className="cards__items">
+          <CardItem
+              src={"/desen.jpg"}
+              text="Desenli kumtaşı kolye"
+              label="Yeni"
+              path="/timus-bezi-kumtasi"
+              available={true}
+             
+              
+            />
+            
             <CardItem
               src={"/magneflower_mobile.jpg"}
               text="epoksi ve siyah kum"

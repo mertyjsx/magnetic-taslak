@@ -10,10 +10,8 @@ import Level3 from "../components/level2";
 import ButtonContainer from "../components/buttonContainer";
 import SampleProduct from "../components/SampleProduct";
 
-import config from "react-reveal/globals";
 
-config({ ssrFadeout: true });
-import { Fade } from "react-reveal";
+
 
 export default function Home() {
   return (
@@ -31,8 +29,7 @@ export default function Home() {
           content="Ünye Manyetik kumundan yapılan sanatsal takı , Stres kolyesi , Terapi kolyesi"
         />
 
-        <meta property="product:price:amount" content="75" />
-        <meta property="product:price:currency" content="TRY" />
+     
 
         <meta property="twitter:card" content="summary_large_image"></meta>
         <meta name="twitter:title" content="Ünye Manyetik Kumtaşı"></meta>
@@ -51,36 +48,69 @@ export default function Home() {
 
         <meta name="twitter:creator" content="@magneticsand__"></meta>
 
-        <title>Ünye Manyetik Kumu | Sanatsal El yapımı kolye</title>
-        <meta
-          name="title"
-          content="Ünye Manyetik Kumu | Sanatsal El yapımı kolye"
-        ></meta>
+        <title>Ünye Manyetik Kumtaşı | Sanatsal El yapımı kolye</title>
+
         <meta
           name="description"
-          content="Ünye Manyetik kumundan yapılan sanatsal takı , Stres kolyesi , Terapi kolyesi , El yapımı doğal taş kolye , Quartz "
+          content="Ünye Manyetik Kumundan yapılan sanatsal kumtaşı , timus bezi üzerinde kullanılır , kuvars içeren kumtaşı , Timus bezi nedir ? "
         ></meta>
+     
+
+<script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `{ "@context": "https://schema.org", 
+            "@type": "BlogPosting",
+            "headline": "Ünye Manyetik Kumtaşı ve Timus bezi  ",
+            "alternativeHeadline": "Ünye manyetik kumundan yapılan takılar",
+            "image": "https://unyemanyetik.com/pure.jpg",
+           
+            "editor": "Orkun Mert Yiğit", 
+            "genre": "Ünye manyetik kumu", 
+            "keywords": "timus kumtaşı kumtasi", 
+            "wordcount": "1120",
+            "publisher": "Ünye Manyetik",
+            "url": "https://www.unyemanyetik.com",
+            "datePublished": "2021-03-05",
+            "dateCreated": "2021-03-05",
+           
+            "description": "Ünye Manyetik Kumundan yapılan sanatsal kumtaşı , timus bezi üzerinde kullanılır , kuvars içeren kumtaşı , Timus bezi nedir ?",
+            "articleBody": "Ünye kumsallarında bulunan ve birçok mineralden oluşan bu kum doğal olarak siyahtır ve manyetik etkiye sahiptir
+            , bir çok ülkede terapi,stres ve bağışıklık için kullanılan bu kumu kolye haline getirdik.
+            Ünye Siyah Kumu Nedir ?
+            Karadeniz'e kıyısı olan ülkelerin sahillerini görülen bu siyah kum ,
+            Ünye ilçesinde bol miktarda bulunmaktadır ve 20’ye yakın mineral
+            içerdiği tespit edilmiştir . Rengi doğal olarak siyahtır ve normal
+            kumlara göre ince tanelidir.
+           
+            Timus bezi nedir ?
+            Timus az bilinen bir organ olmasına karşın, çok önemli özellikleri vardır. Endokrin sistemin önemli bir parçasıdır. 
+            Timus bezi T hücrelerini üretir, bağışıklık sistemindeki diğer organların da düzgün büyümesine yardımcı olur. 
+            Timus bezi nerededir ?
+            Timus, göğüs kemiğinin  ( İman tahtasının )  üstünde bulunur.Troid bezinin alt kısmındadır. Bebeklerde nispeten büyüktür ve ergenliğe kadar büyür.
+
+            ",
+              "author": {
+               "@type": "Person",
+               "name": "Orkun"
+             }
+            }`,
+          }} />
       </Head>
       <article className={styles.main}>
         <Manyetik></Manyetik>
 
-        
-         
-       
-        
         <h3 className="text-center text-6xl font-bold mt220 ">
-          Kolye haline getirdik
+          Kolye haline getirdik.
         </h3>
         <p className="shadow-lg text-3xl contentful responsiveWidth">
-          Ünye sahillerinde bulunan, içinde 20’ye yakın mineral olduğu tespit
-          edilen, vücudun stresten arınmasına yardımcı olan manyetik siyah
-          kumdan; özel işlemlere tabi tutularak, el işçiliği ile üretilmiştir.
+          Ünye kumsallarında bulunan ve birçok mineralden oluşan bu kum doğal olarak siyahtır ve manyetik etkiye sahiptir
+          , bir çok ülkede terapi,stres ve bağışıklık için kullanılan bu kumu kolye haline getirdik.
           <br></br>
           <span class="text-3xl font-bold text-black">
-            Siyah Manyetik kumu tasarımla buluşturduk
+            Siyah Manyetik kumu tasarımla buluşturduk.
           </span>
         </p>
-      
 
         <SampleProduct></SampleProduct>
         <ButtonContainer></ButtonContainer>
@@ -88,52 +118,47 @@ export default function Home() {
 
         <Level2></Level2>
         <Level3></Level3>
-      
+
         <h3 className="text-center text-6xl font-bold mt-6 ">
           Ünye Siyah Kumu Nedir ?
         </h3>
         <p className="shadow-lg text-3xl contentful responsiveWidth">
-          1900'lü yıllardan beri insanlar tarafından ağrılar ve farklı
-          tedavilerde de kullanılan manyetik siyah kumun, geçmişe dönük
-          araştırmalara bakıldığında, binlerce yıl öncesinde de kullanıldığı
-          anlaşılıyor. Özellikle İç Anadolu’dan Karadeniz'e inen ve İpekyolu
-          olarak adlandırılan Akkuş, Niksar, Tokat, Sivas, şehirleri üzerinden
-          insanların ağrılarına çözüm bulmak için geçmişte Ünye’ye geldikleri,
-          siyah manyetik kumun olduğu kumsalda kuma gömülerek doğal tedavi
-          yolları aradıkları belirtiliyor.
+        Karadeniz'e kıyısı olan ülkelerin sahillerini görülen bu siyah kum ,
+          Ünye ilçesinde bol miktarda bulunmaktadır ve 20’ye yakın mineral
+          içerdiği tespit edilmiştir .
+          <br></br>
+           Rengi doğal olarak siyahtır ve normal
+          kumlara göre ince tanelidir.
           <br></br>
           <b class="text-3xl font-bold text-black">
             Büyüklerimiz ağrılarından kurtulmak için ünye siyah kuma gömülürdü.
           </b>
         </p>
         <h3 className="text-center text-6xl font-bold mt-6 ">
-          Ünye Kumu Timus bezi etkisi
+        Ünye Manyetik kumu neden kullanılır ?
         </h3>
         <p className="shadow-lg text-3xl contentful responsiveWidth">
-          Timüs bezini tedavi ediyor. Yapılan tıbbi araştırmalarda, kara kumun,
-          insan vücudunun bağışıklık sistemini düzenleyen timüs bezini onarma
-          özelliği bulunuyor. Kara kumdan yapılan kolyeler bu görevi
-          yapabiliyor. Siklon enerji oluşturarak negatif enerjiyi
-          uzaklaştırıyor, yerine daha fazla pozitif enerjiyi vücuda çekiyor.
-          Stresi azaltıyor. Bağışıklık sistemini düzenliyor. (Dikkat! Sadece
-          kalp pili kullananlar için kesinlikle tavsiye edilmiyor.)
-        
+        Manyetik siyah kum yüksek bir Enerji alanına sahiptir ve stres ve
+          bağışıklık sistemi için kullanılır. Timus bezinde kullanıldığında
+          timus bezini harekete geçirir, Timus bezi stres ve bağışıklık
+          sistemimizin merkezidir.Japonyada  manyetik siyah kumu kullanarak rahatlama ve arındırma hizmeti veren bir çok tesis bulunur.
+          İnsanlar bu kuma gömülerek terapi olmaktadırlar. <br></br>
+           Bu <a style={{color:"red"}} href="https://www.google.com/search?client=opera&sxsrf=ALeKk00v-8OcPZM9aAdtNYtT57DaHqIHeg%3A1614894104459&ei=GFRBYMLTG5GQlwSj3pbACA&q=magnetic+sand+japanese+bath&oq=magnetic+sand+japanese+bath&gs_lcp=Cgdnd3Mtd2l6EAMyCAghEBYQHRAeMggIIRAWEB0QHjIICCEQFhAdEB4yCAghEBYQHRAeMggIIRAWEB0QHjoHCCEQChCgAToECCEQFToFCCEQoAFQhhBY0iFglSJoAXAAeACAAdgBiAHEEJIBBTAuOS4ymAEAoAEBqgEHZ3dzLXdpesABAQ&sclient=gws-wiz&ved=0ahUKEwjCv8irzZfvAhURyIUKHSOvBYgQ4dUDCAw&uact=5">linke</a> basarak bu tesislerden bazılarını görebilirsiniz.
+   
         </p>
         <h3 className="text-center text-6xl font-bold mt-6 ">
-          Ünye Kumu Timus bezi etkisi
+          Timus bezi nedir ?
         </h3>
         <p className="shadow-lg text-3xl contentful responsiveWidth">
-          Timüs bezini tedavi ediyor. Yapılan tıbbi araştırmalarda, kara kumun,
-          insan vücudunun bağışıklık sistemini düzenleyen timüs bezini onarma
-          özelliği bulunuyor. Kara kumdan yapılan kolyeler bu görevi
-          yapabiliyor. Siklon enerji oluşturarak negatif enerjiyi
-          uzaklaştırıyor, yerine daha fazla pozitif enerjiyi vücuda çekiyor.
-          Stresi azaltıyor. Bağışıklık sistemini düzenliyor. (Dikkat! Sadece
-          kalp pili kullananlar için kesinlikle tavsiye edilmiyor.)
-        
+        Timus az bilinen bir organ olmasına karşın, çok önemli özellikleri vardır. Endokrin sistemin önemli bir parçasıdır. 
+        Timus bezi T hücrelerini üretir, bağışıklık sistemindeki diğer organların da düzgün büyümesine yardımcı olur. 
         </p>
-
-      
+        <h3 className="text-center text-6xl font-bold mt-6 ">
+          Timus bezi nerededir ?
+        </h3>
+        <p className="shadow-lg text-3xl contentful responsiveWidth">
+        Timus, göğüs kemiğinin  ( İman tahtasının )  üstünde bulunur.Troid bezinin alt kısmındadır. Bebeklerde nispeten büyüktür ve ergenliğe kadar büyür.
+              </p>
       </article>
     </main>
   );
